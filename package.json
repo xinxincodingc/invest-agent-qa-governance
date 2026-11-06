@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "投资 Agent 回答质量与个性化治理平台（演示）",
   "private": true,
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js",
     "gen": "node src/data/generate.js",
@@ -12,5 +14,8 @@
     "live": "node scripts/live-report.js",
     "test": "node --test test/*.test.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0"
+  }
 }

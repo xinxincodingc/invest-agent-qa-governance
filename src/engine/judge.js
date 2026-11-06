@@ -52,14 +52,53 @@ async function llmRelevance(question, answer) {
   } finally { clearTimeout(t); }
 }
 
+const JUDGE_SCHEMA = {
+  type: 'object',
+  properties: { relevant: { type: 'boolean' }, score: { type: 'number' }, reason: { type: 'string' } },
+  required: ['relevant', 'score', 'reason'],
+  additionalProperties: false,
+};
+
+/**
+ * Claude 评审（Anthropic 官方 SDK）。需显式配置 JUDGE_ANTHROPIC_API_KEY（不读取进程里其他用途的 ANTHROPIC_API_KEY，避免误用他人凭证）。
+ * 模型默认 claude-haiku-5-5（短分类任务），可用 JUDGE_ANTHROPIC_MODEL 覆盖；结构化输出保证返回合法 JSON。
+ */
+let anthropicClient = null;
+async function claudeRelevance(question, answer) {
+  const apiKey = process.env.JUDGE_ANTHROPIC_API_KEY;
+  if (!apiKey) return null;
+  const model = process.env.JUDGE_ANTHROPIC_MODEL || 'claude-haiku-5-5';
+  try {
+    if (!anthropicClient) {
+      const mod = require('@anthropic-ai/sdk');
+      const Anthropic = mod.default || mod;
+      anthropicClient = new Anthropic({ apiKey, timeout: Number(process.env.LLM_TIMEOUT_MS || 30000), maxRetries: 1 });
+    }
+    const response = await anthropicClient.messages.create({
+      model,
+      max_tokens: 1024,
+      output_config: { effort: 'low', format: { type: 'json_schema', schema: JUDGE_SCHEMA } },
+      system: '你是投资问答质检员。只判断回答是否切题（是否回答了用户真正问的对象和问题），不评价数字对错与合规。score 取 0 到 1，reason 用一句中文。',
+      messages: [{ role: 'user', content: `问题：${question.text}\n回答：${answer}` }],
+    });
+    if (response.stop_reason === 'refusal') throw new Error('模型拒答（refusal）');
+    const text = response.content.filter((b) => b.type === 'text').map((b) => b.text).join('');
+    const parsed = JSON.parse(text);
+    const score = Number(parsed.score);
+    return { method: 'llm:' + model, relevant: !!parsed.relevant && score >= 0.6, score, confidence: Math.abs(score - 0.5) * 2, reason: String(parsed.reason || '') };
+  } catch (e) {
+    return { error: e.status ? `HTTP ${e.status} ${e.message}` : e.message };
+  }
+}
+
 async function judgeRelevance(question, answer, opts = {}) {
   if (opts.judge === 'llm') {
-    const r = await llmRelevance(question, answer);
+    const r = (process.env.JUDGE_ANTHROPIC_API_KEY ? await claudeRelevance(question, answer) : null) || await llmRelevance(question, answer);
     if (r && !r.error) return r;
     const h = heuristicRelevance(question, answer);
-    return { ...h, fallback_reason: r ? `LLM 调用失败：${r.error}` : '未配置 LLM_API_KEY/LLM_MODEL' };
+    return { ...h, fallback_reason: r ? `LLM 调用失败：${r.error}` : '未配置 JUDGE_ANTHROPIC_API_KEY 或 LLM_API_KEY/LLM_MODEL' };
   }
   return heuristicRelevance(question, answer);
 }
 
-module.exports = { judgeRelevance, heuristicRelevance };
+module.exports = { judgeRelevance, heuristicRelevance, claudeRelevance, JUDGE_SCHEMA };

@@ -116,7 +116,7 @@ const routes = {
     root_causes: ROOT_CAUSES, issue_labels: ISSUE_LABELS, fault_modes: FAULT_MODES, kyc: DATA.kyc, hot: DATA.hot, questions: DATA.questions,
     kyc_allowed_fields: KYC_ALLOWED_FIELDS, kyc_forbidden_fields: KYC_FORBIDDEN_FIELDS,
     source: { mode: 'snapshot', ifind_configured: getIfindClient().configured, ifind_stats: getIfindClient().stats },
-    llm: { configured: !!(process.env.LLM_API_KEY && process.env.LLM_MODEL), model: process.env.LLM_MODEL || null },
+    llm: process.env.JUDGE_ANTHROPIC_API_KEY ? { configured: true, model: process.env.JUDGE_ANTHROPIC_MODEL || 'claude-haiku-5-5' } : { configured: !!(process.env.LLM_API_KEY && process.env.LLM_MODEL && process.env.LLM_BASE_URL), model: process.env.LLM_MODEL || null },
     data_hash: DATA.data_hash, engine_version: E.ENGINE_VERSION, review_persist: reviewPersist, n_logs: DATA.logs.length,
   }),
   'GET /api/overview': async (q) => {

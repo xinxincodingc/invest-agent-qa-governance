@@ -7,7 +7,7 @@
 - 演示视频脚本：[docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) · 测试说明：[docs/TESTING.md](docs/TESTING.md) · AI 使用与验证记录：[docs/AI_USAGE.md](docs/AI_USAGE.md)
 - 关键数字来源：[reports/eval-summary.md](reports/eval-summary.md)（由 `npm run report` 生成，见「关键数字」）
 
-> 本仓库全部数据为**构造数据**：证券名称是真实标的，但行情/财务/公告数值为构造；基金为虚构「示例基金」（9700xx）。未接入真实 iFinD MCP（无凭证），提供了适配器与故障注入，详见「已知边界」。
+> 两套数据：① **构造回放集**（280 条，数值为构造、结果可复现，用于版本对比与归因）；② **iFinD 实时核验集**（11 条，数值取自同花顺 iFinD MCP 真实返回，用真实接口核验）。在线评测也可切到 iFinD 实时核验。
 
 ---
 
@@ -80,7 +80,7 @@
 
 | 环节 | 本仓库实现 | 生产建议 |
 |---|---|---|
-| 被评测对象 | 构造的 Agent 回答（4 个版本配置） | 线上 Agent 日志 |
+| 被评测对象 | 构造的 Agent 回答（4 个版本配置）+ 基于 iFinD 真实数据生成的回答 | 线上 Agent 日志 |
 | claim 抽取 | 确定性规则抽取（作为回归基线） | LLM 结构化抽取 + 规则兜底，对抽取本身做抽检 |
 | 切题评审 | 启发式（默认）；配置 `LLM_API_KEY/LLM_BASE_URL/LLM_MODEL` 后可在「在线评测」切换 LLM（OpenAI 兼容，如火山方舟），失败自动降级并记录原因 | LLM 评审 + 置信度门限 |
 | 合规/事实裁决 | **不交给 AI**：规则 + 数据源 | 同左；AI 评审与规则/核验冲突时以后者为准 |
@@ -95,12 +95,16 @@
 | `data/facts_snapshot.json` | D1(2026-11-04) / D2(2026-11-05) 两个快照 + 财务/估值/基金/公告静态事实，结构模拟 iFinD 返回 | 构造（宁德时代估值字段刻意缺失，演示数据覆盖缺口） |
 | `data/hot_context.json` | 3 条热点：可信降准、传闻、已过期事件 | 构造 |
 | `data/gold_labels.json` | 模拟人工金标（生成时注入的缺陷） | 仅用于度量评测器准确率，**评测引擎不读取** |
+| `data/live_facts.json` | iFinD 真实事实 + 每次调用的工具、query、取数时间、原始 Markdown 表格 | `npm run live:build` 从 iFinD MCP 获取 |
+| `data/live_logs.json` | 11 条实时核验集：正确回答与已知缺陷（过期、数字错、单位错、口径缺失、收益承诺、适当性、画像改写）| 由 live_facts 生成，金标随之确定 |
+
+**iFinD 接入方式**：按官方 `ifind-finance-data` SKILL v1.5.1 的协议（`initialize` → `Mcp-Session-Id` → `tools/call`）自行实现客户端（[src/engine/ifind.js](src/engine/ifind.js)），映射关系：行情 → `get_stock_performance`（取最近 2 个交易日，用于判断过期）、财务 → `get_stock_financials`（按报告期）、估值 → `get_stock_performance`（市盈率 TTM）、基金风险等级/费率 → `get_fund_profile`、净值/近 1 年收益 → `get_fund_market_performance`。公告类事实未接入（需 news 服务检索 + 全文结构化）。请求只含证券名称/代码 + 指标，不含用户问题与 KYC；串行 + 600ms 间隔（免费账号 2 req/s）；结果缓存 6 小时并落盘，`source_id` = 工具名 + 缓存键 + 取数时间。
 
 版本矩阵（每次只改一个因素，便于归因）：v1 基线 → v2 只改 Prompt → v3 只换模型 → v4 只换数据（实时快照 + 热点过滤）。
 
 ## 5. 关键数字（全部可追溯）
 
-来源 `reports/eval-summary.md`，数据指纹 `69a1335cb9e4`（`data/*.json` 的 sha256 前 12 位，页面「可追溯报告」显示同一指纹）。复现：
+来源 `reports/eval-summary.md`，数据指纹 `dbeabbbb8080`（`data/*.json` 的 sha256 前 12 位，页面「可追溯报告」显示同一指纹）。复现：
 
 ```bash
 npm run gen && npm run report
@@ -121,7 +125,9 @@ npm run gen && npm run report
 4. **v4 剩余主要问题**：财报口径缺失 7 条（口径指标 12.5%），是下一轮迭代目标。
 5. **自动评测 vs 金标**：案例级精确率 97.4%、召回率 99.3%。收益承诺召回只有 72.2%——5 条「隐晦承诺」（如「收益基本有保障」）不在词表里，被自动放过。
 6. **用户反馈 ≠ 质量**：合规/适当性/传闻类失败的点赞率 46.9%，高于自动通过的 43.7%；只有答非所问会明显触发点踩（80%）和改写（100%）。所以反馈只用来发现盲区（27 条「自动通过但负反馈」进入复核），不能当质量指标。
-7. **接口异常不误判**：注入「服务端 5xx」后 v4 通过数 54→14，48 条转为待核验并路由人工；合规类问题依旧能判失败（`reports/eval-summary-error_5xx.md`）。
+7. **iFinD 实时核验集**（`reports/live-summary.md`）：11 条基于真实数据的回答，4 通过 / 7 失败，自动识别结果与金标 **11/11 完全一致**；例如宁德时代用前一交易日收盘价 264.06 冒充最新（最新 254.22）→ 判「数据过期」，易方达蓝筹精选混合对 C2 用户把 R3 写成 R1 并推荐 → 判「画像改写客观事实 + 适当性不匹配」。
+8. **真实接口暴露了构造数据发现不了的问题**：iFinD 对同一自然语言 query 有时返回单行快照，有时返回 366 行时间序列（最旧一行在最后）。第一版解析器取到了一年前的净值 1.9802（实际 1.4164），把正确回答误判为数字错误。已改为按日期取最新行，并加了回归测试。另外首次调用曾出现 60 秒超时，正好走「不可核验 → 人工复核」的降级路径。
+9. **接口异常不误判**：注入「服务端 5xx」后 v4 通过数 54→14，48 条转为待核验并路由人工；合规类问题依旧能判失败（`reports/eval-summary-error_5xx.md`）。
 
 > 小样本说明：每版本 70 条，v1→v2、v2→v3 的总通过率差异不显著；同一模型下 v1/v2 的数字幻觉 4 vs 8 条是随机波动，不应解读为 Prompt 导致。
 
@@ -130,17 +136,22 @@ npm run gen && npm run report
 ```bash
 node -v        # >= 18，无第三方依赖
 npm start      # http://localhost:3000
-npm test       # 37 个测试：主链路、接口异常、合规边界、API
+npm test       # 46 个测试（1 个真实 iFinD 回归默认跳过）：主链路、接口异常、合规边界、API、iFinD 解析
+npm run live:build  # 从 iFinD 取真实数据，重建实时核验集（需 IFIND_MCP_TOKEN）
+npm run live        # 用 iFinD 实时核验并生成 reports/live-summary.md
+IFIND_LIVE_TEST=1 npm test  # 含真实 iFinD 回归
 npm run gen    # 重新生成构造数据（固定种子，结果确定）
 npm run report # 生成 reports/eval-report.json 与 eval-summary.md
 ```
 
-可选环境变量：
+可选环境变量（本地写在 `.env`，已 gitignore；部署时在平台的环境变量里配置）：
 
 | 变量 | 作用 |
 |---|---|
 | `PORT` | 端口，默认 3000 |
-| `FACT_SOURCE=mcp` + `IFIND_MCP_URL` / `IFIND_MCP_TOKEN` | 切到 iFinD MCP 适配器（JSON-RPC `tools/call`）；工具名可用 `IFIND_TOOL_QUOTE` 等覆盖 |
+| `IFIND_MCP_TOKEN` | iFinD MCP 密钥（同花顺 MCP 官网 → 个人中心 → 密钥）；配置后启用实时核验页、在线评测的 iFinD 数据源 |
+| `IFIND_MCP_TIMEOUT_MS` / `IFIND_RATE_LIMIT` | iFinD 单次超时（默认 30000）/ 每 IP 每 10 分钟最多触发的实时取数次数（默认 30） |
+| `FACT_SOURCE=ifind` | 让构造回放集也走 iFinD（数值为构造，会大量不符，仅用于联调） |
 | `LLM_API_KEY` / `LLM_BASE_URL` / `LLM_MODEL` | 启用 LLM 切题评审（OpenAI 兼容接口） |
 | `REVIEW_FILE` | 人工复核结果存储路径，默认 `data/reviews.json`；不可写时退化为内存并在页面提示 |
 
@@ -148,7 +159,11 @@ npm run report # 生成 reports/eval-report.json 与 eval-summary.md
 
 ## 7. 已知边界
 
-- **未联调真实 iFinD MCP**：没有访问凭证，`McpSource` 按通用 MCP JSON-RPC 写成，工具名与返回结构是假设的，接入时需要按真实工具定义调整 `McpSource.query` 中的参数与返回解析。所有核验结论来自构造快照。
+- **构造回放集不走 iFinD**：280 条回放的数值是构造的（为了可复现和可控地注入缺陷），所以用本地快照核验；真实接口能力由 11 条实时核验集证明，规模小。
+- **iFinD 自然语言取数的返回形态不稳定**：列名、表格数量、是否返回时间序列都会变，解析器按列名前缀与最新日期做了兼容，仍可能遇到新形态 → 会落到「字段缺失 / 不可核验」而不是误判通过。
+- **公告类事实未接入 iFinD**；基金最大回撤未接入。
+- **LLM 评审未启用**：提供的火山方舟接入点禁止公网访问（`AccessDenied: not allowed to access endpoint via public network`），需要可达的 Base URL 或开通公网访问后配置 `LLM_BASE_URL`。
+- **「扶摇」未接入**：拿到了密钥，但不清楚其接口地址与协议，没有猜测调用。
 - **评测器准确率偏乐观**：claim 抽取规则与构造回答模板同源，97%+ 的精确率不代表线上表现；真实环境需要用人工金标重新校准，并把抽取换成 LLM。
 - **金标是模拟的**：由生成器注入缺陷时同步产出，不是真人标注。
 - **样本小**：每版本 70 条，只有 v3→v4 的差异显著。
@@ -160,7 +175,7 @@ npm run report # 生成 reports/eval-report.json 与 eval-summary.md
 
 ## 8. 未做事项
 
-- 真实 iFinD MCP 联调与工具 schema 对齐；数据源多源交叉验证（iFinD vs 交易所公告）。
+- 公告/新闻事实接入 iFinD news 服务；扶摇数据源接入后与 iFinD 交叉验证。
 - LLM claim 抽取与 LLM-as-judge 的批量评测、评审一致性（与人工的 Cohen's κ）。
 - 线上日志接入、按天的质量趋势与告警；版本上线门禁（指标门槛自动拦截发布）。
 - 人工复核的多人分配、双盲复核、仲裁与权限管理。
@@ -178,6 +193,9 @@ src/data/generate.js      日志/金标生成器（固定种子）
 src/engine/privacy.js     脱敏、KYC 白名单
 src/engine/extract.js     claim 抽取
 src/engine/factsource.js  数据源适配（快照 / iFinD MCP）+ 故障注入
+src/engine/ifind.js       iFinD MCP 客户端（会话、限速、缓存、表格解析）
+src/engine/live.js        iFinD 实时核验集评测
+scripts/build-live.js     从 iFinD 取数生成实时核验集
 src/engine/verify.js      事实核验
 src/engine/judge.js       AI 评审（启发式 / LLM）
 src/engine/checks.js      规则与指标检查

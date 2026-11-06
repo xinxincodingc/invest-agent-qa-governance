@@ -1,4 +1,5 @@
 'use strict';
+require('./src/env');
 /**
  * 零依赖 Node HTTP 服务：静态页面 + 评测 API。
  * 启动：node server.js（PORT 默认 3000）
@@ -10,7 +11,19 @@ const url = require('url');
 const E = require('./src/engine/evaluate');
 const { METRICS, INTENT_METRICS, DIVISION, INVARIANTS, REQUIRED_ELEMENTS } = require('./src/engine/rubric');
 const { ROOT_CAUSES, ISSUE_LABELS } = require('./src/engine/attribution');
-const { FAULT_MODES, createSource } = require('./src/engine/factsource');
+const { FAULT_MODES, createSource, getIfindClient } = require('./src/engine/factsource');
+const { runLive, loadSavedLive } = require('./src/engine/live');
+
+// iFinD 调用有配额：对会触发实时取数的接口按 IP 限流（10 分钟 30 次）
+const hits = new Map();
+function allowIfind(req) {
+  const ip = req.socket.remoteAddress || 'x';
+  const now = Date.now();
+  const arr = (hits.get(ip) || []).filter((t) => now - t < 600000);
+  if (arr.length >= Number(process.env.IFIND_RATE_LIMIT || 30)) return false;
+  arr.push(now); hits.set(ip, arr); return true;
+}
+let liveCache = null;
 const { sanitize, KYC_ALLOWED_FIELDS, KYC_FORBIDDEN_FIELDS } = require('./src/engine/privacy');
 const { INTENT_LABELS } = require('./src/data/catalog');
 
@@ -102,7 +115,7 @@ const routes = {
     required_elements: Object.fromEntries(Object.entries(REQUIRED_ELEMENTS).map(([k, v]) => [k, v.map((x) => x.label)])),
     root_causes: ROOT_CAUSES, issue_labels: ISSUE_LABELS, fault_modes: FAULT_MODES, kyc: DATA.kyc, hot: DATA.hot, questions: DATA.questions,
     kyc_allowed_fields: KYC_ALLOWED_FIELDS, kyc_forbidden_fields: KYC_FORBIDDEN_FIELDS,
-    source: { mode: process.env.FACT_SOURCE === 'mcp' && process.env.IFIND_MCP_URL ? 'ifind-mcp' : 'snapshot', mcp_configured: !!process.env.IFIND_MCP_URL },
+    source: { mode: 'snapshot', ifind_configured: getIfindClient().configured, ifind_stats: getIfindClient().stats },
     llm: { configured: !!(process.env.LLM_API_KEY && process.env.LLM_MODEL), model: process.env.LLM_MODEL || null },
     data_hash: DATA.data_hash, engine_version: E.ENGINE_VERSION, review_persist: reviewPersist, n_logs: DATA.logs.length,
   }),
@@ -143,11 +156,28 @@ const routes = {
     return { total: rs.length, done, agreement: done ? Math.round((agree / done) * 1000) / 10 : null, items: rs.slice(0, 300).map(light) };
   },
   'GET /api/report': async (q) => buildReport(q.fault),
-  'GET /api/source/health': async (q) => {
-    const src = createSource({ fault: q.fault || 'none' });
-    const probes = [['quote', '600519.SH'], ['nav', '970002.OF'], ['financial', '300750.SZ'], ['fund', '970001.OF'], ['announcement', '300750.SZ'], ['valuation', '300750.SZ']];
+  'GET /api/live': async (q, req) => {
+    const fault = FAULT_MODES[q.fault] ? q.fault : 'none';
+    const configured = getIfindClient().configured;
+    if (q.run === '1' && configured) {
+      if (!allowIfind(req)) throw Object.assign(new Error('iFinD 调用过于频繁，请稍后再试'), { status: 429 });
+      const out = await runLive({ data: DATA, fault });
+      if (fault === 'none') liveCache = out;
+      return { ...out, mode: 'live' };
+    }
+    if (liveCache) return { ...liveCache, mode: 'live-cached' };
+    const saved = loadSavedLive();
+    if (!saved) throw Object.assign(new Error('暂无实时核验结果，且服务端未配置 IFIND_MCP_TOKEN'), { status: 503 });
+    return { ...saved, mode: 'saved', configured };
+  },
+  'GET /api/source/health': async (q, req) => {
+    if (q.src === 'ifind' && !allowIfind(req)) throw Object.assign(new Error('iFinD 调用过于频繁，请稍后再试'), { status: 429 });
+    const src = createSource({ fault: q.fault || 'none', mode: q.src === 'ifind' ? 'ifind' : 'snapshot' });
+    const probes = q.src === 'ifind'
+      ? [['quote', '600519.SH'], ['nav', '005827.OF'], ['financial', '300750.SZ', { period: '2026年前三季度' }], ['fund', '005827.OF'], ['announcement', '300750.SZ'], ['valuation', '300750.SZ']]
+      : [['quote', '600519.SH'], ['nav', '970002.OF'], ['financial', '300750.SZ'], ['fund', '970001.OF'], ['announcement', '300750.SZ'], ['valuation', '300750.SZ']];
     const out = [];
-    for (const [k, key] of probes) { const t = Date.now(); const r = await src.query(k, key); out.push({ kind: k, key, ok: r.ok, ms: Date.now() - t, attempts: r.attempts, error: r.error || null, source_id: r.source_id || null, as_of: r.as_of || null }); }
+    for (const [k, key, o] of probes) { const t = Date.now(); const r = await src.query(k, key, o || {}); out.push({ kind: k, key, ok: r.ok, ms: Date.now() - t, attempts: r.attempts, error: r.error || null, source_id: r.source_id || null, as_of: r.as_of || null }); }
     return { source: src.name, fault: q.fault || 'none', probes: out };
   },
 };
@@ -157,7 +187,7 @@ async function handle(req, res) {
   const p = u.pathname;
   try {
     const key = `${req.method} ${p}`;
-    if (routes[key]) return send(res, 200, await routes[key](u.query));
+    if (routes[key]) return send(res, 200, await routes[key](u.query, req));
     let m;
     if (req.method === 'GET' && (m = p.match(/^\/api\/cases\/([\w-]+)$/))) {
       const ev = await getEval(u.query.fault);
@@ -194,10 +224,12 @@ async function handle(req, res) {
         question: sq.text, answer: sa.text, entity: body.entity || null, expect_terms: body.expect_terms || [], data_snapshot: 'live',
         hot_context_ids: Array.isArray(body.hot_context_ids) ? body.hot_context_ids : [], ingestion: { pii_in_question: sq.findings, pii_in_answer: sa.findings }, feedback: {},
       };
-      const source = createSource({ fault: body.fault || 'none' });
+      if (body.source === 'ifind' && !getIfindClient().configured) return send(res, 400, { error: '服务端未配置 IFIND_MCP_TOKEN，无法使用 iFinD 实时核验' });
+      if (body.source === 'ifind' && !allowIfind(req)) return send(res, 429, { error: 'iFinD 调用过于频繁，请稍后再试' });
+      const source = createSource({ fault: body.fault || 'none', mode: body.source === 'ifind' ? 'ifind' : 'snapshot' });
       const t = Date.now();
       const r = await E.evaluateLog(log, { source, questions: DATA.questions, kyc: DATA.kyc, hot: DATA.hot, judge: body.judge === 'llm' ? 'llm' : 'heuristic' });
-      return send(res, 200, { ...r, elapsed_ms: Date.now() - t, source_calls: source.calls, sanitized: { question: sq, answer: { text: sa.text, findings: sa.findings } } });
+      return send(res, 200, { ...r, elapsed_ms: Date.now() - t, source_calls: source.calls, source_name: source.name, trace: (source.trace || []).map(({ answer, ...x }) => x), sanitized: { question: sq, answer: { text: sa.text, findings: sa.findings } } });
     }
     if (p.startsWith('/api/')) return send(res, 404, { error: 'not found' });
     // static
@@ -207,7 +239,7 @@ async function handle(req, res) {
     res.writeHead(200, { 'content-type': MIME[path.extname(file)] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
   } catch (e) {
-    send(res, e.message === 'invalid JSON' ? 400 : 500, { error: e.message });
+    send(res, e.status || (e.message === 'invalid JSON' ? 400 : 500), { error: e.message });
   }
 }
 

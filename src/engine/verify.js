@@ -32,7 +32,7 @@ async function verifyClaim(claim, source, ctx) {
   if (claim.kind === 'hot') return verifyHot(claim, source, ctx, base);
 
   const kind = claim.kind;
-  const r = await source.query(kind, claim.entity);
+  const r = await source.query(kind, claim.entity, kind === 'financial' ? { period: claim.period } : {});
   if (!r.ok) {
     const iface = !['NOT_FOUND'].includes(r.error.code);
     return { ...base, status: 'unverifiable', reason: iface ? 'INTERFACE_ERROR' : 'DATA_MISSING', detail: r.error.message, error_code: r.error.code, attempts: r.attempts };
@@ -68,7 +68,7 @@ async function verifyClaim(claim, source, ctx) {
   }
 
   if (TIME_SENSITIVE.has(claim.metric)) {
-    const date = claim.date && claim.date < r.as_of ? claim.date : prevDate(r.as_of);
+    const date = claim.date && claim.date < r.as_of ? claim.date : (r.prev_as_of || prevDate(r.as_of));
     const old = await source.query(kind, claim.entity, { date });
     if (old.ok && close(claim.metric, stated, old.data[claim.metric])) {
       return { ...base, status: 'stale', expected, as_of: r.as_of, source_id: r.source_id, stale_value_source: old.source_id, detail: `回答值与 ${old.as_of} 的旧值一致，最新为 ${r.as_of}` };

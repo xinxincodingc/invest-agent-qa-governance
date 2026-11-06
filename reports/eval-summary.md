@@ -1,6 +1,6 @@
 # 评测摘要
 
-- 引擎 1.0.0 · 数据指纹 `69a1335cb9e4` · 数据源 snapshot · AI 评审 heuristic
+- 引擎 1.0.0 · 数据指纹 `dbeabbbb8080` · 数据源 snapshot · AI 评审 heuristic
 - 复现：`npm run gen && npm run report`
 
 ## 版本汇总

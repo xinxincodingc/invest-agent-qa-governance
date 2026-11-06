@@ -11,6 +11,8 @@ const ENTITIES = [
   { code: '300750.SZ', name: '宁德时代', type: 'stock', aliases: ['宁德', '300750'] },
   { code: '000001.SZ', name: '平安银行', type: 'stock', aliases: ['000001'] },
   { code: '002594.SZ', name: '比亚迪', type: 'stock', aliases: ['002594'] },
+  // 真实基金：仅用于 iFinD 实时核验集（构造快照中无数据 → 快照模式下不可核验）
+  { code: '005827.OF', name: '易方达蓝筹精选混合', type: 'fund', aliases: ['易方达蓝筹', '005827'] },
   { code: '970001.OF', name: '示例稳健债券A', type: 'fund', aliases: ['稳健债券A', '970001'] },
   { code: '970002.OF', name: '示例科技成长混合', type: 'fund', aliases: ['科技成长混合', '970002'] },
   { code: '970003.OF', name: '示例沪深300指数A', type: 'fund', aliases: ['沪深300指数A', '970003'] },

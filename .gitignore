@@ -1,3 +1,5 @@
 node_modules/
 .DS_Store
 data/reviews.json
+.env
+data/ifind_cache/

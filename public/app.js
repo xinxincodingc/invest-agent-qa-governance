@@ -20,7 +20,7 @@ const NAV = [
   ['标准与分工', [['rubric', '质量标准与指标'], ['division', '四层分工']]],
   ['运营', [['cases', '案例库'], ['review', '人工复核队列'], ['feedback', '用户行为反馈']]],
   ['边界', [['personalization', '个性化与不变事实'], ['compliance', '合规与隐私'], ['source', '数据源与接口异常']]],
-  ['工具', [['sandbox', '在线评测'], ['trace', '可追溯报告']]],
+  ['工具', [['live', 'iFinD 实时核验'], ['sandbox', '在线评测'], ['trace', '可追溯报告']]],
 ];
 
 const verdictPill = (v) => `<span class="pill ${v}">${{ pass: '通过', fail: '失败', pending: '待核验', unverifiable: '不可核验', warn: '提示', na: '不适用' }[v] || v}</span>`;
@@ -322,7 +322,8 @@ pages.source = async () => {
     const h = await api('/api/source/health?fault=' + f);
     rows.push(h);
   }
-  return `<h1>数据源与接口异常</h1><p class="sub">当前数据源：<b>${META.source.mode}</b>${META.source.mcp_configured ? '' : '（未配置 IFIND_MCP_URL，使用本地构造快照；结构模拟 iFinD 返回）'}。顶栏可切换故障注入，全站评测随之重算。</p>
+  return `<h1>数据源与接口异常</h1><p class="sub">构造回放集使用本地快照（数值为构造，保证结果可复现）；<a href="#/live">iFinD 实时核验</a>与「在线评测」可切到真实 iFinD MCP（服务端${META.source.ifind_configured ? '<b>已配置</b>密钥' : '<b>未配置</b> IFIND_MCP_TOKEN'}）。顶栏可切换故障注入，全站评测随之重算。</p>
+  <div class="card"><div class="flex"><b>iFinD MCP 连通性探测</b><button id="ifprobe" ${META.source.ifind_configured ? '' : 'disabled'}>探测（真实调用，约 10 秒）</button><span class="small muted">只发送证券代码/名称 + 指标，不发送用户问题与 KYC</span></div><div id="ifout"></div></div>
   <div class="note">降级原则：① 每次查询重试 1 次；② 仍失败 → 该 claim「不可核验」并记录错误码；③ 含不可核验项的案例判「待核验」，<b>绝不判通过</b>；④ 自动路由 P1 人工复核；⑤ 字段结构变更（schema drift）按契约校验拦截，不会把错位字段当成事实。</div>
   <h2>各故障模式探测</h2><table><tr><th>故障模式</th>${rows[0].probes.map((p) => `<th class="small">${p.kind}<br>${p.key}</th>`).join('')}</tr>
   ${rows.map((h) => `<tr><td>${esc(META.fault_modes[h.fault])}</td>${h.probes.map((p) => `<td class="small">${p.ok ? verdictPill('pass') : verdictPill('fail') + `<div class="trace">${esc(p.error.code)}</div>`}<div class="muted">${p.ms}ms · 尝试 ${p.attempts}</div></td>`).join('')}</tr>`).join('')}</table>
@@ -330,6 +331,15 @@ pages.source = async () => {
   <h2>接口异常对评测结果的影响</h2><div id="faultimpact" class="muted">计算中…</div>`;
 };
 pages.source.after = async () => {
+  const b = $('#ifprobe');
+  if (b) b.onclick = async () => {
+    b.disabled = true; $('#ifout').innerHTML = '<p class="muted">调用中…</p>';
+    try {
+      const h = await api('/api/source/health?src=ifind&fault=' + state.fault);
+      $('#ifout').innerHTML = `<table><tr><th>类型</th><th>标的</th><th>结果</th><th>耗时</th><th>来源 / 错误</th></tr>${h.probes.map((p) => `<tr><td>${p.kind}</td><td>${p.key}</td><td>${verdictPill(p.ok ? 'pass' : 'fail')}</td><td class="num">${p.ms}ms · ${p.attempts} 次</td><td class="trace">${esc(p.ok ? p.source_id + ' ' + (p.as_of || '') : p.error.code + ' ' + p.error.message)}</td></tr>`).join('')}</table>`;
+    } catch (e) { $('#ifout').innerHTML = `<div class="warnbox">${esc(e.message)}</div>`; }
+    b.disabled = false;
+  };
   const out = [];
   for (const f of Object.keys(META.fault_modes)) {
     const res = await fetch('/api/overview?fault=' + f).then((r) => r.json());
@@ -346,12 +356,13 @@ pages.sandbox = async () => {
    预置问题 <select id="sq"><option value="">（自定义）</option>${qs.map((q) => `<option value="${q.id}">${q.id} ${esc(q.text.slice(0, 22))}</option>`).join('')}</select>
    意图 <select id="si">${Object.entries(META.intents).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}</select>
    画像 <select id="sk">${META.kyc.map((k) => `<option value="${k.id}" ${k.id === 'K1' ? 'selected' : ''}>${k.id} ${esc(k.label)}</option>`).join('')}</select>
+   数据源 <select id="ss"><option value="snapshot">构造快照</option><option value="ifind" ${META.source.ifind_configured ? '' : 'disabled'}>iFinD 实时${META.source.ifind_configured ? '' : '（未配置）'}</option></select>
    AI 评审 <select id="sj"><option value="heuristic">启发式</option><option value="llm">LLM${META.llm.configured ? '（' + esc(META.llm.model) + '）' : '（未配置，将降级）'}</option></select>
    <label class="small"><input type="checkbox" id="sh" checked> 注入热点上下文</label></div>
   <div class="small muted">问题</div><textarea id="sqt" rows="2"></textarea>
   <div class="small muted">回答</div><textarea id="sa" rows="5"></textarea>
   <div class="flex" style="margin-top:8px"><button class="primary" id="srun">评测</button>
-  <span class="small">示例：</span><button data-ex="good">合格回答</button><button data-ex="bad">越界回答</button><button data-ex="stale">过期数据</button><button data-ex="pii">泄露隐私</button></div></div>
+  <span class="small">示例：</span><button data-ex="good">合格回答</button><button data-ex="bad">越界回答</button><button data-ex="stale">过期数据</button><button data-ex="pii">泄露隐私</button><button data-ex="real">真实数据（iFinD）</button></div></div>
   <div id="sout"></div>`;
 };
 const EXAMPLES = {
@@ -363,16 +374,54 @@ const EXAMPLES = {
 pages.sandbox.after = () => {
   const fill = (qid) => { const q = META.questions.find((x) => x.id === qid); if (q) { $('#si').value = q.intent; $('#sqt').value = q.text; } };
   $('#sq').onchange = () => fill($('#sq').value);
-  document.querySelectorAll('[data-ex]').forEach((b) => { b.onclick = () => { const e = EXAMPLES[b.dataset.ex]; $('#sq').value = e.q; fill(e.q); $('#sk').value = e.k; $('#sa').value = e.a; }; });
+  document.querySelectorAll('[data-ex]').forEach((b) => { b.onclick = async () => {
+    if (b.dataset.ex === 'real') {
+      try {
+        const lv = await api('/api/live');
+        const qv = lv.facts.values.quote_latest['600519.SH'], fv = lv.facts.values.financial['600519.SH'];
+        $('#sq').value = ''; $('#si').value = 'financial'; $('#sk').value = 'K3'; $('#ss').value = 'ifind';
+        $('#sqt').value = '贵州茅台最新股价和三季报业绩';
+        $('#sa').value = `贵州茅台（600519）截至${qv.as_of}收盘价${qv.close.toFixed(2)}元，${qv.pct_chg >= 0 ? '上涨' : '下跌'}${Math.abs(qv.pct_chg).toFixed(2)}%。贵州茅台2026年前三季度实现营业收入${fv.revenue.toFixed(1)}亿元，归母净利润${(fv.net_profit * 1.1).toFixed(1)}亿元。`;
+      } catch (e) { alert('读取实时核验数据失败：' + e.message); }
+      return;
+    }
+    const e = EXAMPLES[b.dataset.ex]; $('#ss').value = 'snapshot'; $('#sq').value = e.q; fill(e.q); $('#sk').value = e.k; $('#sa').value = e.a; }; });
   $('#srun').onclick = async () => {
     const q = META.questions.find((x) => x.id === $('#sq').value);
     $('#srun').disabled = true; $('#sout').innerHTML = '<p class="muted">评测中…</p>';
     try {
-      const r = await post('/api/evaluate', { question_id: q ? q.id : null, intent: $('#si').value, kyc_id: $('#sk').value, question: $('#sqt').value, answer: $('#sa').value, judge: $('#sj').value, fault: state.fault, hot_context_ids: $('#sh').checked && q && q.hot ? META.hot.map((h) => h.id) : [] });
-      $('#sout').innerHTML = `<p class="small muted">耗时 ${r.elapsed_ms}ms · 数据源调用 ${r.source_calls} 次 · 接口状态「${META.fault_modes[state.fault]}」${r.relevance && r.relevance.fallback_reason ? ' · AI 评审已降级：' + esc(r.relevance.fallback_reason) : ''}</p>` + caseDetail({ ...r, gold: null });
+      const r = await post('/api/evaluate', { question_id: q ? q.id : null, intent: $('#si').value, kyc_id: $('#sk').value, question: $('#sqt').value, answer: $('#sa').value, judge: $('#sj').value, source: $('#ss').value, fault: state.fault, hot_context_ids: $('#sh').checked && q && q.hot ? META.hot.map((h) => h.id) : [] });
+      $('#sout').innerHTML = `<p class="small muted">数据源 <b>${esc(r.source_name)}</b> · 耗时 ${r.elapsed_ms}ms · 数据源调用 ${r.source_calls} 次 · 接口状态「${META.fault_modes[state.fault]}」${r.relevance && r.relevance.fallback_reason ? ' · AI 评审已降级：' + esc(r.relevance.fallback_reason) : ''}</p>` + caseDetail({ ...r, gold: null }) + traceTable(r.trace);
     } catch (e) { $('#sout').innerHTML = `<div class="warnbox">评测失败：${esc(e.message)}</div>`; }
     $('#srun').disabled = false;
   };
+};
+
+function traceTable(trace) {
+  if (!trace || !trace.length) return '';
+  return `<h2>iFinD 调用记录</h2><table><tr><th>工具</th><th>query</th><th>取数时间</th><th>缓存</th><th>缓存键</th></tr>${trace.map((t) => `<tr><td class="trace">${esc(t.tool)}</td><td class="small">${esc(t.query)}</td><td class="trace">${esc(t.fetched_at)}</td><td>${t.cached ? '是' : '否'}</td><td class="trace">${esc(t.key)}</td></tr>`).join('')}</table>`;
+}
+
+pages.live = async () => {
+  const r = await api('/api/live');
+  const lab = (a) => (a.length ? issueChips(a) : '<span class="muted small">无</span>');
+  const ok = r.items.filter((x) => JSON.stringify([...x.issues].sort()) === JSON.stringify([...x.gold].sort())).length;
+  return `<h1>iFinD 实时核验</h1><p class="sub">用 iFinD MCP 取真实行情、财务、估值、基金数据 → 生成正确回答与已知缺陷回答 → 再用 iFinD 实时核验，看平台能否把缺陷找出来。</p>
+  <div class="flex" style="margin-bottom:10px"><button class="primary" id="lrun" ${META.source.ifind_configured ? '' : 'disabled'}>重新核验（调用 iFinD）</button>
+  <span class="small muted">${{ live: '刚刚实时运行', 'live-cached': '本服务进程内的上次实时结果', saved: '仓库中保存的上次实时结果（服务端未调用 iFinD）' }[r.mode]} · 运行于 ${esc(r.meta.ran_at)} · 事实取数于 ${esc(r.meta.facts_fetched_at)} · iFinD 网络调用 ${r.meta.ifind_calls.network} / 缓存 ${r.meta.ifind_calls.cache_hits} / 错误 ${r.meta.ifind_calls.errors} · 接口状态「${META.fault_modes[r.meta.fault]}」</span></div>
+  <div class="grid g4"><div class="stat"><div class="k">案例</div><div class="v">${r.summary.n}</div></div><div class="stat"><div class="k">通过 / 失败 / 待核验</div><div class="v">${r.summary.pass} / ${r.summary.fail} / ${r.summary.pending}</div></div>
+  <div class="stat"><div class="k">与金标完全一致</div><div class="v">${ok}/${r.summary.n}</div></div><div class="stat"><div class="k">案例级精确率 / 召回率</div><div class="v">${fmt(r.accuracy.case_level.precision)} / ${fmt(r.accuracy.case_level.recall)}</div></div></div>
+  <table><tr><th>案例</th><th>意图</th><th>画像</th><th>判定</th><th>自动识别</th><th>金标</th><th>回答</th></tr>
+  ${r.items.map((x, i) => `<tr class="click" data-live="${i}"><td class="trace">${x.id}</td><td>${esc(META.intents[x.intent])}</td><td>${x.kyc_id}</td><td>${verdictPill(x.verdict)}</td><td>${lab(x.issues)}</td><td>${lab(x.gold)}</td><td class="small">${esc(x.answer.slice(0, 60))}…</td></tr>`).join('')}</table>
+  <div id="ldetail"></div>
+  ${traceTable(r.trace)}
+  <h2>本次取到的真实事实</h2><div class="trace answer">${esc(JSON.stringify(r.facts.values, null, 1))}</div>
+  <p class="small muted">原始 iFinD 返回（Markdown 表格）保存在 <code>data/live_facts.json</code> 的 calls[].answer；README 记录了一个真实问题：同一 query 有时返回单行快照、有时返回 366 行时间序列，解析器必须取最新日期行。</p>`;
+};
+pages.live.after = () => {
+  const b = $('#lrun');
+  if (b) b.onclick = async () => { b.disabled = true; b.textContent = '核验中（约 20 秒）…'; try { await api('/api/live?run=1'); } catch (e) { alert(e.message); } route(); };
+  document.querySelectorAll('tr[data-live]').forEach((tr) => { tr.onclick = async () => { const r = await api('/api/live'); const x = r.items[Number(tr.dataset.live)]; $('#ldetail').innerHTML = `<h2>${esc(x.id)}</h2>` + caseDetail({ ...x }); $('#ldetail').scrollIntoView({ behavior: 'smooth' }); }; });
 };
 
 pages.trace = async () => {

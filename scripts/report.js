@@ -1,4 +1,5 @@
 'use strict';
+require('../src/env');
 /** 生成可追溯报告：reports/eval-report.json + reports/eval-summary.md（README 的关键数字来源） */
 const fs = require('fs');
 const path = require('path');

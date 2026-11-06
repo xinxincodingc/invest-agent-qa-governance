@@ -8,6 +8,8 @@
     "start": "node server.js",
     "gen": "node src/data/generate.js",
     "report": "node scripts/report.js",
+    "live:build": "node scripts/build-live.js",
+    "live": "node scripts/live-report.js",
     "test": "node --test test/*.test.js"
   },
   "license": "MIT"

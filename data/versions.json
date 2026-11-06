@@ -1,0 +1,38 @@
+[
+  {
+    "id": "v1",
+    "label": "v1 基线",
+    "model": "Model-A(2026.09)",
+    "prompt": "P1 通用助手",
+    "data": "D1",
+    "hot_filter": false,
+    "note": "基线：通用 Prompt + T-1 数据快照 + 热点未过滤"
+  },
+  {
+    "id": "v2",
+    "label": "v2 Prompt 合规增强",
+    "model": "Model-A(2026.09)",
+    "prompt": "P2 合规增强",
+    "data": "D1",
+    "hot_filter": false,
+    "note": "仅改 Prompt：强制风险提示、禁止收益承诺、先做适当性判断、不复述隐私"
+  },
+  {
+    "id": "v3",
+    "label": "v3 换模型",
+    "model": "Model-B(2026.10)",
+    "prompt": "P2 合规增强",
+    "data": "D1",
+    "hot_filter": false,
+    "note": "仅换模型：数字幻觉更少，但更爱省略财报口径（局部回退）"
+  },
+  {
+    "id": "v4",
+    "label": "v4 实时数据+热点过滤",
+    "model": "Model-B(2026.10)",
+    "prompt": "P2 合规增强",
+    "data": "D2",
+    "hot_filter": true,
+    "note": "仅换数据：接入当日快照，热点上下文按可信度过滤"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "invest-agent-qa-governance",
+  "version": "1.0.0",
+  "description": "投资 Agent 回答质量与个性化治理平台（演示）",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "gen": "node src/data/generate.js",
+    "report": "node scripts/report.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}

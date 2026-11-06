@@ -1,0 +1,212 @@
+{
+  "_note": "构造数据：模拟 iFinD MCP 返回格式，数值非真实行情",
+  "entities": [
+    {
+      "code": "600519.SH",
+      "name": "贵州茅台",
+      "type": "stock",
+      "aliases": [
+        "茅台",
+        "600519"
+      ]
+    },
+    {
+      "code": "300750.SZ",
+      "name": "宁德时代",
+      "type": "stock",
+      "aliases": [
+        "宁德",
+        "300750"
+      ]
+    },
+    {
+      "code": "000001.SZ",
+      "name": "平安银行",
+      "type": "stock",
+      "aliases": [
+        "000001"
+      ]
+    },
+    {
+      "code": "002594.SZ",
+      "name": "比亚迪",
+      "type": "stock",
+      "aliases": [
+        "002594"
+      ]
+    },
+    {
+      "code": "970001.OF",
+      "name": "示例稳健债券A",
+      "type": "fund",
+      "aliases": [
+        "稳健债券A",
+        "970001"
+      ]
+    },
+    {
+      "code": "970002.OF",
+      "name": "示例科技成长混合",
+      "type": "fund",
+      "aliases": [
+        "科技成长混合",
+        "970002"
+      ]
+    },
+    {
+      "code": "970003.OF",
+      "name": "示例沪深300指数A",
+      "type": "fund",
+      "aliases": [
+        "沪深300指数A",
+        "970003"
+      ]
+    },
+    {
+      "code": "970004.OF",
+      "name": "示例货币A",
+      "type": "fund",
+      "aliases": [
+        "货币A",
+        "970004"
+      ]
+    }
+  ],
+  "snapshots": {
+    "D1": {
+      "id": "D1",
+      "label": "T-1 日终快照",
+      "as_of": "2026-11-04",
+      "quote": {
+        "600519.SH": {
+          "close": 1468.2,
+          "pct_chg": -0.85
+        },
+        "300750.SZ": {
+          "close": 268.4,
+          "pct_chg": 1.12
+        },
+        "000001.SZ": {
+          "close": 11.82,
+          "pct_chg": 0.34
+        },
+        "002594.SZ": {
+          "close": 352.6,
+          "pct_chg": 0.52
+        }
+      },
+      "nav": {
+        "970001.OF": 1.0832,
+        "970002.OF": 2.145,
+        "970003.OF": 1.562,
+        "970004.OF": 1
+      }
+    },
+    "D2": {
+      "id": "D2",
+      "label": "实时（当日收盘）快照",
+      "as_of": "2026-11-05",
+      "quote": {
+        "600519.SH": {
+          "close": 1502.5,
+          "pct_chg": 2.34
+        },
+        "300750.SZ": {
+          "close": 262.1,
+          "pct_chg": -2.35
+        },
+        "000001.SZ": {
+          "close": 11.95,
+          "pct_chg": 1.1
+        },
+        "002594.SZ": {
+          "close": 349.8,
+          "pct_chg": -0.79
+        }
+      },
+      "nav": {
+        "970001.OF": 1.0835,
+        "970002.OF": 2.198,
+        "970003.OF": 1.5788,
+        "970004.OF": 1
+      }
+    }
+  },
+  "static": {
+    "financial": {
+      "600519.SH": {
+        "period": "2026年前三季度",
+        "revenue": 1320.5,
+        "net_profit": 652.3,
+        "np_yoy": 8.6,
+        "source": "ifind:fin:600519.SH@2026Q3"
+      },
+      "300750.SZ": {
+        "period": "2026年前三季度",
+        "revenue": 2950.8,
+        "net_profit": 412.6,
+        "np_yoy": 15.2,
+        "source": "ifind:fin:300750.SZ@2026Q3"
+      },
+      "000001.SZ": {
+        "period": "2026年前三季度",
+        "revenue": 1105.2,
+        "net_profit": 398.7,
+        "np_yoy": -3.1,
+        "source": "ifind:fin:000001.SZ@2026Q3"
+      }
+    },
+    "valuation": {
+      "600519.SH": {
+        "pe_ttm": 22.4,
+        "source": "ifind:val:600519.SH@2026-11-05"
+      }
+    },
+    "fund": {
+      "970001.OF": {
+        "risk_level": 2,
+        "mgmt_fee": 0.3,
+        "ret_1y": 3.8,
+        "max_dd": -1.9,
+        "category": "债券型"
+      },
+      "970002.OF": {
+        "risk_level": 4,
+        "mgmt_fee": 1.2,
+        "ret_1y": 18.6,
+        "max_dd": -28.4,
+        "category": "混合型"
+      },
+      "970003.OF": {
+        "risk_level": 3,
+        "mgmt_fee": 0.5,
+        "ret_1y": 9.7,
+        "max_dd": -15.2,
+        "category": "指数型"
+      },
+      "970004.OF": {
+        "risk_level": 1,
+        "mgmt_fee": 0.2,
+        "ret_1y": 1.6,
+        "max_dd": 0,
+        "category": "货币型"
+      }
+    },
+    "announcement": {
+      "ANN-300750-20261105": {
+        "code": "300750.SZ",
+        "date": "2026-11-05",
+        "title": "关于以集中竞价交易方式回购公司股份方案的公告",
+        "buyback_min": 30,
+        "buyback_max": 60,
+        "price_cap": 380,
+        "purpose": "员工持股计划或股权激励"
+      },
+      "ANN-600519-20261028": {
+        "code": "600519.SH",
+        "date": "2026-10-28",
+        "title": "2026年第三季度报告"
+      }
+    }
+  }
+}

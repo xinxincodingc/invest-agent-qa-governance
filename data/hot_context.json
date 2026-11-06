@@ -1,0 +1,36 @@
+[
+  {
+    "id": "H1",
+    "date": "2026-11-05",
+    "credibility": "verified",
+    "source": "央行官网公告（构造）",
+    "text": "央行宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效",
+    "facts": {
+      "rrr_cut": 0.25,
+      "effective": "2026-11-15"
+    }
+  },
+  {
+    "id": "H2",
+    "date": "2026-11-05",
+    "credibility": "rumor",
+    "source": "社交媒体传闻（构造）",
+    "text": "传闻宁德时代将被纳入某国际指数",
+    "facts": {},
+    "keywords": [
+      "纳入某国际指数",
+      "纳入国际指数"
+    ]
+  },
+  {
+    "id": "H3",
+    "date": "2026-05-08",
+    "credibility": "verified",
+    "source": "央行官网公告（构造）",
+    "expired": true,
+    "text": "央行下调存款准备金率0.5个百分点（2026年5月）",
+    "facts": {
+      "rrr_cut": 0.5
+    }
+  }
+]

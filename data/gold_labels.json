@@ -1,0 +1,1777 @@
+[
+  {
+    "log_id": "L-v1-Q01-K3-1",
+    "defects": [
+      "hallucination",
+      "off_topic",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q01-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q02-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q02-K3-2",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q03-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q03-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q04-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q04-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q05-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q05-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q06-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q06-K3-2",
+    "defects": [
+      "off_topic",
+      "unit_error"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q07-K1-1",
+    "defects": [
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q07-K1-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q07-K5-1",
+    "defects": [
+      "distortion",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q07-K5-2",
+    "defects": [
+      "distortion",
+      "missing_disclaimer",
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q08-K1-1",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q08-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q08-K5-1",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q08-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q09-K3-1",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q09-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q10-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q10-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q11-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q11-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q12-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q12-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q13-K1-1",
+    "defects": [
+      "missing_disclaimer"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q13-K1-2",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q13-K5-1",
+    "defects": [
+      "missing_disclaimer"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q13-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q14-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q14-K1-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q14-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q14-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q15-K3-1",
+    "defects": [
+      "hallucination"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q15-K3-2",
+    "defects": [
+      "hot_stale",
+      "missing_disclaimer",
+      "promise_return"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q16-K1-1",
+    "defects": [
+      "stale_data",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q16-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q16-K5-1",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q16-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q17-K1-1",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q17-K1-2",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q17-K5-1",
+    "defects": [
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q17-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q18-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q18-K1-2",
+    "defects": [
+      "promise_return",
+      "stale_data",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q18-K5-1",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q18-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q19-K1-1",
+    "defects": [
+      "pii_echo",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q19-K1-2",
+    "defects": [
+      "distortion",
+      "missing_disclaimer",
+      "pii_echo",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q19-K5-1",
+    "defects": [
+      "missing_disclaimer",
+      "pii_echo"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q19-K5-2",
+    "defects": [
+      "distortion",
+      "missing_disclaimer",
+      "pii_echo"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q19-K0-1",
+    "defects": [
+      "missing_disclaimer",
+      "pii_echo",
+      "promise_return",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q19-K0-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q20-K1-1",
+    "defects": [
+      "missing_disclaimer",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q20-K1-2",
+    "defects": [
+      "missing_disclaimer",
+      "promise_return"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q20-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q20-K5-2",
+    "defects": [
+      "missing_disclaimer"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q21-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q21-K1-2",
+    "defects": [
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q21-K5-1",
+    "defects": [
+      "promise_return"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q21-K5-2",
+    "defects": [
+      "distortion",
+      "promise_return"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q22-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q22-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q23-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q23-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q24-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v1-Q24-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q01-K3-1",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q01-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q02-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q02-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q03-K3-1",
+    "defects": [
+      "off_topic",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q03-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q04-K3-1",
+    "defects": [
+      "hallucination"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q04-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q05-K3-1",
+    "defects": [
+      "hallucination",
+      "unit_error"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q05-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q06-K3-1",
+    "defects": [
+      "hallucination"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q06-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q07-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q07-K1-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q07-K5-1",
+    "defects": [
+      "distortion",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q07-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q08-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q08-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q08-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q08-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q09-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q09-K3-2",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q10-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q10-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q11-K3-1",
+    "defects": [
+      "off_topic"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q11-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q12-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q12-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q13-K1-1",
+    "defects": [
+      "hallucination"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q13-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q13-K5-1",
+    "defects": [
+      "hallucination"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q13-K5-2",
+    "defects": [
+      "hot_stale"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q14-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q14-K1-2",
+    "defects": [
+      "rumor_as_fact"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q14-K5-1",
+    "defects": [
+      "rumor_as_fact"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q14-K5-2",
+    "defects": [
+      "rumor_as_fact"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q15-K3-1",
+    "defects": [
+      "hot_stale"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q15-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q16-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q16-K1-2",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q16-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q16-K5-2",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q17-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q17-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q17-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q17-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q18-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q18-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q18-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q18-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q19-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q19-K1-2",
+    "defects": [
+      "distortion",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q19-K5-1",
+    "defects": [
+      "distortion"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q19-K5-2",
+    "defects": [
+      "distortion"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q19-K0-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q19-K0-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q20-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q20-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q20-K5-1",
+    "defects": [
+      "distortion"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q20-K5-2",
+    "defects": [
+      "distortion"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q21-K1-1",
+    "defects": [
+      "distortion",
+      "promise_return",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q21-K1-2",
+    "defects": [
+      "distortion",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q21-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q21-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q22-K3-1",
+    "defects": [
+      "off_topic"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q22-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q23-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q23-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q24-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v2-Q24-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q01-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q01-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q02-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q02-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q03-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q03-K3-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q04-K3-1",
+    "defects": [
+      "missing_period",
+      "unit_error"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q04-K3-2",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q05-K3-1",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q05-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q06-K3-1",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q06-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q07-K1-1",
+    "defects": [
+      "stale_data",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q07-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q07-K5-1",
+    "defects": [
+      "promise_return",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q07-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q08-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q08-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q08-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q08-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q09-K3-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q09-K3-2",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q10-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q10-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q11-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q11-K3-2",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q12-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q12-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q13-K1-1",
+    "defects": [
+      "hot_stale"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q13-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q13-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q13-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q14-K1-1",
+    "defects": [
+      "rumor_as_fact"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q14-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q14-K5-1",
+    "defects": [
+      "rumor_as_fact"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q14-K5-2",
+    "defects": [
+      "rumor_as_fact"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q15-K3-1",
+    "defects": [
+      "hot_stale"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q15-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q16-K1-1",
+    "defects": [
+      "stale_data",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q16-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q16-K5-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q16-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q17-K1-1",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q17-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q17-K5-1",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q17-K5-2",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q18-K1-1",
+    "defects": [
+      "hallucination",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q18-K1-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q18-K5-1",
+    "defects": [
+      "missing_disclaimer",
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q18-K5-2",
+    "defects": [
+      "stale_data"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q19-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q19-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q19-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q19-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q19-K0-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q19-K0-2",
+    "defects": [
+      "missing_disclaimer"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q20-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q20-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q20-K5-1",
+    "defects": [
+      "missing_disclaimer"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q20-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q21-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q21-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q21-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q21-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q22-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q22-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q23-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q23-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q24-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v3-Q24-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q01-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q01-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q02-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q02-K3-2",
+    "defects": [
+      "hallucination"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q03-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q03-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q04-K3-1",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q04-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q05-K3-1",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q05-K3-2",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q06-K3-1",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q06-K3-2",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q07-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q07-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q07-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q07-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q08-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q08-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q08-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q08-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q09-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q09-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q10-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q10-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q11-K3-1",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q11-K3-2",
+    "defects": [
+      "missing_period"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q12-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q12-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q13-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q13-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q13-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q13-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q14-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q14-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q14-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q14-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q15-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q15-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q16-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q16-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q16-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q16-K5-2",
+    "defects": [
+      "missing_disclaimer"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q17-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q17-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q17-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q17-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q18-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q18-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q18-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q18-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q19-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q19-K1-2",
+    "defects": [
+      "distortion",
+      "suitability"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q19-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q19-K5-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q19-K0-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q19-K0-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q20-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q20-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q20-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q20-K5-2",
+    "defects": [
+      "distortion"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q21-K1-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q21-K1-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q21-K5-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q21-K5-2",
+    "defects": [
+      "distortion"
+    ],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q22-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q22-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q23-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q23-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q24-K3-1",
+    "defects": [],
+    "annotator": "simulated-gold"
+  },
+  {
+    "log_id": "L-v4-Q24-K3-2",
+    "defects": [],
+    "annotator": "simulated-gold"
+  }
+]

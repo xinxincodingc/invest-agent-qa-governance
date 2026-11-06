@@ -1,0 +1,38 @@
+[
+  {
+    "id": "K0",
+    "label": "未完成风险测评",
+    "risk_level": null,
+    "horizon": null,
+    "age_band": "未知",
+    "experience": "未知",
+    "goal": "未知"
+  },
+  {
+    "id": "K1",
+    "label": "C2 稳健型",
+    "risk_level": 2,
+    "horizon": "1年以内",
+    "age_band": "60岁以上",
+    "experience": "3年以下",
+    "goal": "保值，临近退休"
+  },
+  {
+    "id": "K3",
+    "label": "C3 平衡型",
+    "risk_level": 3,
+    "horizon": "1-3年",
+    "age_band": "35-45岁",
+    "experience": "3-5年",
+    "goal": "稳健增值"
+  },
+  {
+    "id": "K5",
+    "label": "C5 激进型",
+    "risk_level": 5,
+    "horizon": "5年以上",
+    "age_band": "25-35岁",
+    "experience": "5年以上",
+    "goal": "追求高收益"
+  }
+]

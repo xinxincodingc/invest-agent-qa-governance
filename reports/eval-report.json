@@ -1,0 +1,3196 @@
+{
+  "meta": {
+    "engine_version": "1.0.0",
+    "data_hash": "69a1335cb9e4",
+    "fault": "none",
+    "judge": "heuristic",
+    "source": "snapshot",
+    "generated_at": "2026-11-06T09:15:21.172Z",
+    "n": 280
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "label": "v1 基线",
+      "model": "Model-A(2026.09)",
+      "prompt": "P1 通用助手",
+      "data": "D1",
+      "n": 70,
+      "pass": 21,
+      "fail": 49,
+      "pending": 0,
+      "pass_rate": 30,
+      "avg_score": 79.9,
+      "claim_accuracy": 93.8,
+      "claim_fresh": 64.2,
+      "claims_total": 180,
+      "claims_verifiable": 176,
+      "components": {
+        "model": 7,
+        "data": 36,
+        "prompt": 34,
+        "policy": 13,
+        "hot_context": 1
+      },
+      "review": {
+        "BLOCK_HIT": 38,
+        "LOW_CONFIDENCE": 2,
+        "FEEDBACK_CONFLICT": 5,
+        "RANDOM_SAMPLE": 3,
+        "UNVERIFIABLE": 4
+      },
+      "review_cases": 46,
+      "metrics": {
+        "ACC": {
+          "rate": 90,
+          "fail": 5,
+          "applicable": 50
+        },
+        "FRESH": {
+          "rate": 13.2,
+          "fail": 33,
+          "applicable": 38
+        },
+        "VERIFIABLE": {
+          "rate": 90,
+          "fail": 0,
+          "applicable": 40
+        },
+        "REL": {
+          "rate": 95.8,
+          "fail": 2,
+          "applicable": 48
+        },
+        "ELEM": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 28
+        },
+        "PERIOD": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 8
+        },
+        "RISKDISC": {
+          "rate": 45.7,
+          "fail": 25,
+          "applicable": 46
+        },
+        "COMPLY": {
+          "rate": 76.9,
+          "fail": 12,
+          "applicable": 52
+        },
+        "SUIT": {
+          "rate": 69,
+          "fail": 9,
+          "applicable": 29
+        },
+        "INVAR": {
+          "rate": 86.1,
+          "fail": 5,
+          "applicable": 36
+        },
+        "PERS": {
+          "rate": 82.6,
+          "fail": 8,
+          "applicable": 46
+        },
+        "HOT": {
+          "rate": 90,
+          "fail": 1,
+          "applicable": 10
+        },
+        "BAL": {
+          "rate": 58.3,
+          "fail": 5,
+          "applicable": 12
+        },
+        "PRIV": {
+          "rate": 92.9,
+          "fail": 5,
+          "applicable": 70
+        }
+      },
+      "causes": {
+        "MODEL_HALLUCINATION": 4,
+        "DATA_STALE": 32,
+        "MODEL_INTENT": 2,
+        "MODEL_UNIT": 1,
+        "PROMPT_GUARDRAIL": 29,
+        "PERSONALIZATION": 13,
+        "HOT_CONTEXT": 1,
+        "DATA_COVERAGE": 4,
+        "PRIVACY": 5
+      }
+    },
+    {
+      "id": "v2",
+      "label": "v2 Prompt 合规增强",
+      "model": "Model-A(2026.09)",
+      "prompt": "P2 合规增强",
+      "data": "D1",
+      "n": 70,
+      "pass": 22,
+      "fail": 48,
+      "pending": 0,
+      "pass_rate": 31.4,
+      "avg_score": 87.1,
+      "claim_accuracy": 88.2,
+      "claim_fresh": 60.6,
+      "claims_total": 174,
+      "claims_verifiable": 170,
+      "components": {
+        "model": 12,
+        "data": 33,
+        "prompt": 2,
+        "policy": 8,
+        "hot_context": 5
+      },
+      "review": {
+        "BLOCK_HIT": 24,
+        "LOW_CONFIDENCE": 3,
+        "FEEDBACK_CONFLICT": 6,
+        "UNVERIFIABLE": 4
+      },
+      "review_cases": 37,
+      "metrics": {
+        "ACC": {
+          "rate": 80.9,
+          "fail": 9,
+          "applicable": 47
+        },
+        "FRESH": {
+          "rate": 11.4,
+          "fail": 31,
+          "applicable": 35
+        },
+        "VERIFIABLE": {
+          "rate": 90,
+          "fail": 0,
+          "applicable": 40
+        },
+        "REL": {
+          "rate": 93.8,
+          "fail": 3,
+          "applicable": 48
+        },
+        "ELEM": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 28
+        },
+        "PERIOD": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 8
+        },
+        "RISKDISC": {
+          "rate": 95.7,
+          "fail": 2,
+          "applicable": 46
+        },
+        "COMPLY": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 52
+        },
+        "SUIT": {
+          "rate": 87.5,
+          "fail": 3,
+          "applicable": 24
+        },
+        "INVAR": {
+          "rate": 77.8,
+          "fail": 8,
+          "applicable": 36
+        },
+        "PERS": {
+          "rate": 89.1,
+          "fail": 5,
+          "applicable": 46
+        },
+        "HOT": {
+          "rate": 50,
+          "fail": 5,
+          "applicable": 10
+        },
+        "BAL": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 12
+        },
+        "PRIV": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 70
+        }
+      },
+      "causes": {
+        "MODEL_HALLUCINATION": 8,
+        "DATA_STALE": 29,
+        "MODEL_INTENT": 3,
+        "MODEL_UNIT": 1,
+        "PROMPT_GUARDRAIL": 2,
+        "PERSONALIZATION": 8,
+        "HOT_CONTEXT": 5,
+        "DATA_COVERAGE": 4
+      }
+    },
+    {
+      "id": "v3",
+      "label": "v3 换模型",
+      "model": "Model-B(2026.10)",
+      "prompt": "P2 合规增强",
+      "data": "D1",
+      "n": 70,
+      "pass": 29,
+      "fail": 41,
+      "pending": 0,
+      "pass_rate": 41.4,
+      "avg_score": 89.7,
+      "claim_accuracy": 97.6,
+      "claim_fresh": 68.5,
+      "claims_total": 169,
+      "claims_verifiable": 165,
+      "components": {
+        "data": 33,
+        "model": 8,
+        "policy": 2,
+        "prompt": 6,
+        "hot_context": 5
+      },
+      "review": {
+        "BLOCK_HIT": 16,
+        "RANDOM_SAMPLE": 2,
+        "UNVERIFIABLE": 4,
+        "FEEDBACK_CONFLICT": 4
+      },
+      "review_cases": 24,
+      "metrics": {
+        "ACC": {
+          "rate": 93.6,
+          "fail": 3,
+          "applicable": 47
+        },
+        "FRESH": {
+          "rate": 11.4,
+          "fail": 31,
+          "applicable": 35
+        },
+        "VERIFIABLE": {
+          "rate": 90,
+          "fail": 0,
+          "applicable": 40
+        },
+        "REL": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 48
+        },
+        "ELEM": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 28
+        },
+        "PERIOD": {
+          "rate": 37.5,
+          "fail": 5,
+          "applicable": 8
+        },
+        "RISKDISC": {
+          "rate": 89.1,
+          "fail": 5,
+          "applicable": 46
+        },
+        "COMPLY": {
+          "rate": 98.1,
+          "fail": 1,
+          "applicable": 52
+        },
+        "SUIT": {
+          "rate": 92.3,
+          "fail": 2,
+          "applicable": 26
+        },
+        "INVAR": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 36
+        },
+        "PERS": {
+          "rate": 87,
+          "fail": 6,
+          "applicable": 46
+        },
+        "HOT": {
+          "rate": 50,
+          "fail": 5,
+          "applicable": 10
+        },
+        "BAL": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 12
+        },
+        "PRIV": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 70
+        }
+      },
+      "causes": {
+        "DATA_STALE": 29,
+        "MODEL_UNIT": 1,
+        "MODEL_PERIOD": 5,
+        "PERSONALIZATION": 2,
+        "PROMPT_GUARDRAIL": 6,
+        "MODEL_HALLUCINATION": 2,
+        "HOT_CONTEXT": 5,
+        "DATA_COVERAGE": 4
+      }
+    },
+    {
+      "id": "v4",
+      "label": "v4 实时数据+热点过滤",
+      "model": "Model-B(2026.10)",
+      "prompt": "P2 合规增强",
+      "data": "D2",
+      "n": 70,
+      "pass": 54,
+      "fail": 12,
+      "pending": 4,
+      "pass_rate": 77.1,
+      "avg_score": 96.5,
+      "claim_accuracy": 97.7,
+      "claim_fresh": 97.7,
+      "claims_total": 180,
+      "claims_verifiable": 176,
+      "components": {
+        "model": 8,
+        "prompt": 1,
+        "data": 4,
+        "policy": 3
+      },
+      "review": {
+        "FEEDBACK_CONFLICT": 12,
+        "BLOCK_HIT": 5,
+        "RANDOM_SAMPLE": 2,
+        "UNVERIFIABLE": 4
+      },
+      "review_cases": 23,
+      "metrics": {
+        "ACC": {
+          "rate": 98,
+          "fail": 1,
+          "applicable": 50
+        },
+        "FRESH": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 38
+        },
+        "VERIFIABLE": {
+          "rate": 90,
+          "fail": 0,
+          "applicable": 40
+        },
+        "REL": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 48
+        },
+        "ELEM": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 28
+        },
+        "PERIOD": {
+          "rate": 12.5,
+          "fail": 7,
+          "applicable": 8
+        },
+        "RISKDISC": {
+          "rate": 97.8,
+          "fail": 1,
+          "applicable": 46
+        },
+        "COMPLY": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 52
+        },
+        "SUIT": {
+          "rate": 95.8,
+          "fail": 1,
+          "applicable": 24
+        },
+        "INVAR": {
+          "rate": 91.7,
+          "fail": 3,
+          "applicable": 36
+        },
+        "PERS": {
+          "rate": 91.3,
+          "fail": 4,
+          "applicable": 46
+        },
+        "HOT": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 10
+        },
+        "BAL": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 12
+        },
+        "PRIV": {
+          "rate": 100,
+          "fail": 0,
+          "applicable": 70
+        }
+      },
+      "causes": {
+        "MODEL_HALLUCINATION": 1,
+        "MODEL_PERIOD": 7,
+        "PROMPT_GUARDRAIL": 1,
+        "DATA_COVERAGE": 4,
+        "PERSONALIZATION": 3
+      }
+    }
+  ],
+  "compare_chain": [
+    {
+      "base": "v1",
+      "cand": "v2",
+      "pass_rate": [
+        30,
+        31.4
+      ],
+      "test": {
+        "z": 0.18,
+        "p_value": 0.855
+      },
+      "metrics": {
+        "ACC": {
+          "name": "事实准确",
+          "base": 90,
+          "cand": 80.9,
+          "delta": -9.1,
+          "base_fail": 5,
+          "cand_fail": 9,
+          "base_fail_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q06-K3-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q15-K3-1"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q04-K3-1",
+            "L-v2-Q05-K3-1",
+            "L-v2-Q06-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q13-K1-1",
+            "L-v2-Q13-K5-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-2"
+          ]
+        },
+        "FRESH": {
+          "name": "数据时效",
+          "base": 13.2,
+          "cand": 11.4,
+          "delta": -1.8,
+          "base_fail": 33,
+          "cand_fail": 31,
+          "base_fail_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q01-K3-2",
+            "L-v1-Q02-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q03-K3-1",
+            "L-v1-Q03-K3-2",
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q08-K1-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q09-K3-2",
+            "L-v1-Q14-K1-1",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-1",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q16-K1-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q16-K5-2",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q01-K3-2",
+            "L-v2-Q02-K3-1",
+            "L-v2-Q02-K3-2",
+            "L-v2-Q03-K3-1",
+            "L-v2-Q03-K3-2",
+            "L-v2-Q07-K1-1",
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-1",
+            "L-v2-Q07-K5-2",
+            "L-v2-Q08-K1-1",
+            "L-v2-Q08-K1-2",
+            "L-v2-Q08-K5-1",
+            "L-v2-Q08-K5-2",
+            "L-v2-Q09-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q13-K5-2",
+            "L-v2-Q14-K1-1",
+            "L-v2-Q15-K3-1",
+            "L-v2-Q16-K1-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-1",
+            "L-v2-Q16-K5-2",
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2",
+            "L-v2-Q18-K1-1",
+            "L-v2-Q18-K1-2",
+            "L-v2-Q18-K5-1",
+            "L-v2-Q18-K5-2"
+          ]
+        },
+        "VERIFIABLE": {
+          "name": "可核验率",
+          "base": 90,
+          "cand": 90,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2"
+          ]
+        },
+        "REL": {
+          "name": "切题（非答非所问）",
+          "base": 95.8,
+          "cand": 93.8,
+          "delta": -2,
+          "base_fail": 2,
+          "cand_fail": 3,
+          "base_fail_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q06-K3-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q03-K3-1",
+            "L-v2-Q11-K3-1",
+            "L-v2-Q22-K3-1"
+          ]
+        },
+        "ELEM": {
+          "name": "必含要素",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "PERIOD": {
+          "name": "口径与单位标注",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "RISKDISC": {
+          "name": "风险提示",
+          "base": 45.7,
+          "cand": 95.7,
+          "delta": 50,
+          "base_fail": 25,
+          "cand_fail": 2,
+          "base_fail_ids": [
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q13-K1-1",
+            "L-v1-Q13-K1-2",
+            "L-v1-Q13-K5-1",
+            "L-v1-Q13-K5-2",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q20-K1-2",
+            "L-v1-Q20-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-2"
+          ]
+        },
+        "COMPLY": {
+          "name": "合规表述",
+          "base": 76.9,
+          "cand": 100,
+          "delta": 23.1,
+          "base_fail": 12,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q13-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "SUIT": {
+          "name": "适当性匹配",
+          "base": 69,
+          "cand": 87.5,
+          "delta": 18.5,
+          "base_fail": 9,
+          "cand_fail": 3,
+          "base_fail_ids": [
+            "L-v1-Q07-K1-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q21-K1-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q19-K1-2",
+            "L-v2-Q21-K1-1",
+            "L-v2-Q21-K1-2"
+          ]
+        },
+        "INVAR": {
+          "name": "画像不变事实一致",
+          "base": 86.1,
+          "cand": 77.8,
+          "delta": -8.3,
+          "base_fail": 5,
+          "cand_fail": 8,
+          "base_fail_ids": [
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q07-K5-1",
+            "L-v2-Q19-K1-2",
+            "L-v2-Q19-K5-1",
+            "L-v2-Q19-K5-2",
+            "L-v2-Q20-K5-1",
+            "L-v2-Q20-K5-2",
+            "L-v2-Q21-K1-1",
+            "L-v2-Q21-K1-2"
+          ]
+        },
+        "PERS": {
+          "name": "个性化贴合",
+          "base": 82.6,
+          "cand": 89.1,
+          "delta": 6.5,
+          "base_fail": 8,
+          "cand_fail": 5,
+          "base_fail_ids": [
+            "L-v1-Q09-K3-1",
+            "L-v1-Q09-K3-2",
+            "L-v1-Q14-K5-1",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q19-K0-1"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q09-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q14-K1-2",
+            "L-v2-Q14-K5-1",
+            "L-v2-Q14-K5-2"
+          ]
+        },
+        "HOT": {
+          "name": "热点可信与时效",
+          "base": 90,
+          "cand": 50,
+          "delta": -40,
+          "base_fail": 1,
+          "cand_fail": 5,
+          "base_fail_ids": [
+            "L-v1-Q15-K3-2"
+          ],
+          "cand_fail_ids": [
+            "L-v2-Q13-K5-2",
+            "L-v2-Q14-K1-2",
+            "L-v2-Q14-K5-1",
+            "L-v2-Q14-K5-2",
+            "L-v2-Q15-K3-1"
+          ]
+        },
+        "BAL": {
+          "name": "观点平衡",
+          "base": 58.3,
+          "cand": 100,
+          "delta": 41.7,
+          "base_fail": 5,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "PRIV": {
+          "name": "隐私不外泄",
+          "base": 92.9,
+          "cand": 100,
+          "delta": 7.1,
+          "base_fail": 5,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1"
+          ],
+          "cand_fail_ids": []
+        }
+      },
+      "causes": {
+        "MODEL_HALLUCINATION": {
+          "label": "模型数字幻觉",
+          "component": "model",
+          "base": 4,
+          "cand": 8,
+          "base_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q15-K3-1"
+          ],
+          "cand_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q04-K3-1",
+            "L-v2-Q06-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q13-K1-1",
+            "L-v2-Q13-K5-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-2"
+          ]
+        },
+        "DATA_STALE": {
+          "label": "数据时效（快照过期）",
+          "component": "data",
+          "base": 32,
+          "cand": 29,
+          "base_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q01-K3-2",
+            "L-v1-Q02-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q03-K3-1",
+            "L-v1-Q03-K3-2",
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q08-K1-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q09-K3-2",
+            "L-v1-Q14-K1-1",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-1",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q16-K1-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q16-K5-2",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q01-K3-2",
+            "L-v2-Q02-K3-1",
+            "L-v2-Q02-K3-2",
+            "L-v2-Q03-K3-1",
+            "L-v2-Q03-K3-2",
+            "L-v2-Q07-K1-1",
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-1",
+            "L-v2-Q07-K5-2",
+            "L-v2-Q08-K1-1",
+            "L-v2-Q08-K1-2",
+            "L-v2-Q08-K5-1",
+            "L-v2-Q08-K5-2",
+            "L-v2-Q09-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q14-K1-1",
+            "L-v2-Q16-K1-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-1",
+            "L-v2-Q16-K5-2",
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2",
+            "L-v2-Q18-K1-1",
+            "L-v2-Q18-K1-2",
+            "L-v2-Q18-K5-1",
+            "L-v2-Q18-K5-2"
+          ]
+        },
+        "MODEL_INTENT": {
+          "label": "意图理解/答非所问",
+          "component": "model",
+          "base": 2,
+          "cand": 3,
+          "base_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q06-K3-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q03-K3-1",
+            "L-v2-Q11-K3-1",
+            "L-v2-Q22-K3-1"
+          ]
+        },
+        "MODEL_UNIT": {
+          "label": "单位/量纲错误",
+          "component": "model",
+          "base": 1,
+          "cand": 1,
+          "base_ids": [
+            "L-v1-Q06-K3-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q05-K3-1"
+          ]
+        },
+        "PROMPT_GUARDRAIL": {
+          "label": "合规护栏缺失（风险提示/收益承诺）",
+          "component": "prompt",
+          "base": 29,
+          "cand": 2,
+          "base_ids": [
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q13-K1-1",
+            "L-v1-Q13-K1-2",
+            "L-v1-Q13-K5-1",
+            "L-v1-Q13-K5-2",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q20-K1-2",
+            "L-v1-Q20-K5-2",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-2"
+          ]
+        },
+        "PERSONALIZATION": {
+          "label": "个性化策略越界（适当性/不变事实被改写）",
+          "component": "policy",
+          "base": 13,
+          "cand": 8,
+          "base_ids": [
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q21-K1-2",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q07-K5-1",
+            "L-v2-Q19-K1-2",
+            "L-v2-Q19-K5-1",
+            "L-v2-Q19-K5-2",
+            "L-v2-Q20-K5-1",
+            "L-v2-Q20-K5-2",
+            "L-v2-Q21-K1-1",
+            "L-v2-Q21-K1-2"
+          ]
+        },
+        "HOT_CONTEXT": {
+          "label": "热点上下文污染（传闻/过期事件）",
+          "component": "hot_context",
+          "base": 1,
+          "cand": 5,
+          "base_ids": [
+            "L-v1-Q15-K3-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q13-K5-2",
+            "L-v2-Q14-K1-2",
+            "L-v2-Q14-K5-1",
+            "L-v2-Q14-K5-2",
+            "L-v2-Q15-K3-1"
+          ]
+        },
+        "DATA_COVERAGE": {
+          "label": "数据源未覆盖",
+          "component": "data",
+          "base": 4,
+          "cand": 4,
+          "base_ids": [
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2"
+          ],
+          "cand_ids": [
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2"
+          ]
+        },
+        "PRIVACY": {
+          "label": "隐私护栏失效",
+          "component": "prompt",
+          "base": 5,
+          "cand": 0,
+          "base_ids": [
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1"
+          ],
+          "cand_ids": []
+        }
+      },
+      "fixed": 8,
+      "regressed": [
+        "L-v2-Q04-K3-1",
+        "L-v2-Q05-K3-1",
+        "L-v2-Q06-K3-1",
+        "L-v2-Q11-K3-1",
+        "L-v2-Q20-K5-1",
+        "L-v2-Q21-K1-1",
+        "L-v2-Q22-K3-1"
+      ]
+    },
+    {
+      "base": "v2",
+      "cand": "v3",
+      "pass_rate": [
+        31.4,
+        41.4
+      ],
+      "test": {
+        "z": 1.23,
+        "p_value": 0.219
+      },
+      "metrics": {
+        "ACC": {
+          "name": "事实准确",
+          "base": 80.9,
+          "cand": 93.6,
+          "delta": 12.7,
+          "base_fail": 9,
+          "cand_fail": 3,
+          "base_fail_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q04-K3-1",
+            "L-v2-Q05-K3-1",
+            "L-v2-Q06-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q13-K1-1",
+            "L-v2-Q13-K5-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q04-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q18-K1-1"
+          ]
+        },
+        "FRESH": {
+          "name": "数据时效",
+          "base": 11.4,
+          "cand": 11.4,
+          "delta": 0,
+          "base_fail": 31,
+          "cand_fail": 31,
+          "base_fail_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q01-K3-2",
+            "L-v2-Q02-K3-1",
+            "L-v2-Q02-K3-2",
+            "L-v2-Q03-K3-1",
+            "L-v2-Q03-K3-2",
+            "L-v2-Q07-K1-1",
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-1",
+            "L-v2-Q07-K5-2",
+            "L-v2-Q08-K1-1",
+            "L-v2-Q08-K1-2",
+            "L-v2-Q08-K5-1",
+            "L-v2-Q08-K5-2",
+            "L-v2-Q09-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q13-K5-2",
+            "L-v2-Q14-K1-1",
+            "L-v2-Q15-K3-1",
+            "L-v2-Q16-K1-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-1",
+            "L-v2-Q16-K5-2",
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2",
+            "L-v2-Q18-K1-1",
+            "L-v2-Q18-K1-2",
+            "L-v2-Q18-K5-1",
+            "L-v2-Q18-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q01-K3-1",
+            "L-v3-Q01-K3-2",
+            "L-v3-Q02-K3-1",
+            "L-v3-Q02-K3-2",
+            "L-v3-Q03-K3-1",
+            "L-v3-Q03-K3-2",
+            "L-v3-Q07-K1-1",
+            "L-v3-Q07-K1-2",
+            "L-v3-Q07-K5-1",
+            "L-v3-Q07-K5-2",
+            "L-v3-Q08-K1-1",
+            "L-v3-Q08-K1-2",
+            "L-v3-Q08-K5-1",
+            "L-v3-Q08-K5-2",
+            "L-v3-Q09-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q13-K1-1",
+            "L-v3-Q14-K1-2",
+            "L-v3-Q15-K3-1",
+            "L-v3-Q16-K1-1",
+            "L-v3-Q16-K1-2",
+            "L-v3-Q16-K5-1",
+            "L-v3-Q16-K5-2",
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K1-1",
+            "L-v3-Q18-K1-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q18-K5-2"
+          ]
+        },
+        "VERIFIABLE": {
+          "name": "可核验率",
+          "base": 90,
+          "cand": 90,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2"
+          ]
+        },
+        "REL": {
+          "name": "切题（非答非所问）",
+          "base": 93.8,
+          "cand": 100,
+          "delta": 6.2,
+          "base_fail": 3,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v2-Q03-K3-1",
+            "L-v2-Q11-K3-1",
+            "L-v2-Q22-K3-1"
+          ],
+          "cand_fail_ids": []
+        },
+        "ELEM": {
+          "name": "必含要素",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "PERIOD": {
+          "name": "口径与单位标注",
+          "base": 100,
+          "cand": 37.5,
+          "delta": -62.5,
+          "base_fail": 0,
+          "cand_fail": 5,
+          "base_fail_ids": [],
+          "cand_fail_ids": [
+            "L-v3-Q04-K3-1",
+            "L-v3-Q04-K3-2",
+            "L-v3-Q05-K3-1",
+            "L-v3-Q06-K3-1",
+            "L-v3-Q11-K3-2"
+          ]
+        },
+        "RISKDISC": {
+          "name": "风险提示",
+          "base": 95.7,
+          "cand": 89.1,
+          "delta": -6.6,
+          "base_fail": 2,
+          "cand_fail": 5,
+          "base_fail_ids": [
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q19-K0-2",
+            "L-v3-Q20-K5-1"
+          ]
+        },
+        "COMPLY": {
+          "name": "合规表述",
+          "base": 100,
+          "cand": 98.1,
+          "delta": -1.9,
+          "base_fail": 0,
+          "cand_fail": 1,
+          "base_fail_ids": [],
+          "cand_fail_ids": [
+            "L-v3-Q07-K5-1"
+          ]
+        },
+        "SUIT": {
+          "name": "适当性匹配",
+          "base": 87.5,
+          "cand": 92.3,
+          "delta": 4.8,
+          "base_fail": 3,
+          "cand_fail": 2,
+          "base_fail_ids": [
+            "L-v2-Q19-K1-2",
+            "L-v2-Q21-K1-1",
+            "L-v2-Q21-K1-2"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q07-K1-1",
+            "L-v3-Q16-K1-1"
+          ]
+        },
+        "INVAR": {
+          "name": "画像不变事实一致",
+          "base": 77.8,
+          "cand": 100,
+          "delta": 22.2,
+          "base_fail": 8,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v2-Q07-K5-1",
+            "L-v2-Q19-K1-2",
+            "L-v2-Q19-K5-1",
+            "L-v2-Q19-K5-2",
+            "L-v2-Q20-K5-1",
+            "L-v2-Q20-K5-2",
+            "L-v2-Q21-K1-1",
+            "L-v2-Q21-K1-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "PERS": {
+          "name": "个性化贴合",
+          "base": 89.1,
+          "cand": 87,
+          "delta": -2.1,
+          "base_fail": 5,
+          "cand_fail": 6,
+          "base_fail_ids": [
+            "L-v2-Q09-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q14-K1-2",
+            "L-v2-Q14-K5-1",
+            "L-v2-Q14-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q09-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q14-K1-1",
+            "L-v3-Q14-K5-1",
+            "L-v3-Q14-K5-2",
+            "L-v3-Q16-K1-1"
+          ]
+        },
+        "HOT": {
+          "name": "热点可信与时效",
+          "base": 50,
+          "cand": 50,
+          "delta": 0,
+          "base_fail": 5,
+          "cand_fail": 5,
+          "base_fail_ids": [
+            "L-v2-Q13-K5-2",
+            "L-v2-Q14-K1-2",
+            "L-v2-Q14-K5-1",
+            "L-v2-Q14-K5-2",
+            "L-v2-Q15-K3-1"
+          ],
+          "cand_fail_ids": [
+            "L-v3-Q13-K1-1",
+            "L-v3-Q14-K1-1",
+            "L-v3-Q14-K5-1",
+            "L-v3-Q14-K5-2",
+            "L-v3-Q15-K3-1"
+          ]
+        },
+        "BAL": {
+          "name": "观点平衡",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "PRIV": {
+          "name": "隐私不外泄",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        }
+      },
+      "causes": {
+        "MODEL_HALLUCINATION": {
+          "label": "模型数字幻觉",
+          "component": "model",
+          "base": 8,
+          "cand": 2,
+          "base_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q04-K3-1",
+            "L-v2-Q06-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q13-K1-1",
+            "L-v2-Q13-K5-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-2"
+          ],
+          "cand_ids": [
+            "L-v3-Q09-K3-2",
+            "L-v3-Q18-K1-1"
+          ]
+        },
+        "DATA_STALE": {
+          "label": "数据时效（快照过期）",
+          "component": "data",
+          "base": 29,
+          "cand": 29,
+          "base_ids": [
+            "L-v2-Q01-K3-1",
+            "L-v2-Q01-K3-2",
+            "L-v2-Q02-K3-1",
+            "L-v2-Q02-K3-2",
+            "L-v2-Q03-K3-1",
+            "L-v2-Q03-K3-2",
+            "L-v2-Q07-K1-1",
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-1",
+            "L-v2-Q07-K5-2",
+            "L-v2-Q08-K1-1",
+            "L-v2-Q08-K1-2",
+            "L-v2-Q08-K5-1",
+            "L-v2-Q08-K5-2",
+            "L-v2-Q09-K3-1",
+            "L-v2-Q09-K3-2",
+            "L-v2-Q14-K1-1",
+            "L-v2-Q16-K1-1",
+            "L-v2-Q16-K1-2",
+            "L-v2-Q16-K5-1",
+            "L-v2-Q16-K5-2",
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2",
+            "L-v2-Q18-K1-1",
+            "L-v2-Q18-K1-2",
+            "L-v2-Q18-K5-1",
+            "L-v2-Q18-K5-2"
+          ],
+          "cand_ids": [
+            "L-v3-Q01-K3-1",
+            "L-v3-Q01-K3-2",
+            "L-v3-Q02-K3-1",
+            "L-v3-Q02-K3-2",
+            "L-v3-Q03-K3-1",
+            "L-v3-Q03-K3-2",
+            "L-v3-Q07-K1-1",
+            "L-v3-Q07-K1-2",
+            "L-v3-Q07-K5-1",
+            "L-v3-Q07-K5-2",
+            "L-v3-Q08-K1-1",
+            "L-v3-Q08-K1-2",
+            "L-v3-Q08-K5-1",
+            "L-v3-Q08-K5-2",
+            "L-v3-Q09-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q14-K1-2",
+            "L-v3-Q16-K1-1",
+            "L-v3-Q16-K1-2",
+            "L-v3-Q16-K5-1",
+            "L-v3-Q16-K5-2",
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K1-1",
+            "L-v3-Q18-K1-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q18-K5-2"
+          ]
+        },
+        "MODEL_INTENT": {
+          "label": "意图理解/答非所问",
+          "component": "model",
+          "base": 3,
+          "cand": 0,
+          "base_ids": [
+            "L-v2-Q03-K3-1",
+            "L-v2-Q11-K3-1",
+            "L-v2-Q22-K3-1"
+          ],
+          "cand_ids": []
+        },
+        "MODEL_UNIT": {
+          "label": "单位/量纲错误",
+          "component": "model",
+          "base": 1,
+          "cand": 1,
+          "base_ids": [
+            "L-v2-Q05-K3-1"
+          ],
+          "cand_ids": [
+            "L-v3-Q04-K3-1"
+          ]
+        },
+        "PROMPT_GUARDRAIL": {
+          "label": "合规护栏缺失（风险提示/收益承诺）",
+          "component": "prompt",
+          "base": 2,
+          "cand": 6,
+          "base_ids": [
+            "L-v2-Q07-K1-2",
+            "L-v2-Q07-K5-2"
+          ],
+          "cand_ids": [
+            "L-v3-Q07-K5-1",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q19-K0-2",
+            "L-v3-Q20-K5-1"
+          ]
+        },
+        "PERSONALIZATION": {
+          "label": "个性化策略越界（适当性/不变事实被改写）",
+          "component": "policy",
+          "base": 8,
+          "cand": 2,
+          "base_ids": [
+            "L-v2-Q07-K5-1",
+            "L-v2-Q19-K1-2",
+            "L-v2-Q19-K5-1",
+            "L-v2-Q19-K5-2",
+            "L-v2-Q20-K5-1",
+            "L-v2-Q20-K5-2",
+            "L-v2-Q21-K1-1",
+            "L-v2-Q21-K1-2"
+          ],
+          "cand_ids": [
+            "L-v3-Q07-K1-1",
+            "L-v3-Q16-K1-1"
+          ]
+        },
+        "HOT_CONTEXT": {
+          "label": "热点上下文污染（传闻/过期事件）",
+          "component": "hot_context",
+          "base": 5,
+          "cand": 5,
+          "base_ids": [
+            "L-v2-Q13-K5-2",
+            "L-v2-Q14-K1-2",
+            "L-v2-Q14-K5-1",
+            "L-v2-Q14-K5-2",
+            "L-v2-Q15-K3-1"
+          ],
+          "cand_ids": [
+            "L-v3-Q13-K1-1",
+            "L-v3-Q14-K1-1",
+            "L-v3-Q14-K5-1",
+            "L-v3-Q14-K5-2",
+            "L-v3-Q15-K3-1"
+          ]
+        },
+        "DATA_COVERAGE": {
+          "label": "数据源未覆盖",
+          "component": "data",
+          "base": 4,
+          "cand": 4,
+          "base_ids": [
+            "L-v2-Q17-K1-1",
+            "L-v2-Q17-K1-2",
+            "L-v2-Q17-K5-1",
+            "L-v2-Q17-K5-2"
+          ],
+          "cand_ids": [
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2"
+          ]
+        },
+        "MODEL_PERIOD": {
+          "label": "财报口径缺失",
+          "component": "model",
+          "base": 0,
+          "cand": 5,
+          "base_ids": [],
+          "cand_ids": [
+            "L-v3-Q04-K3-1",
+            "L-v3-Q04-K3-2",
+            "L-v3-Q05-K3-1",
+            "L-v3-Q06-K3-1",
+            "L-v3-Q11-K3-2"
+          ]
+        }
+      },
+      "fixed": 10,
+      "regressed": [
+        "L-v3-Q04-K3-2",
+        "L-v3-Q11-K3-2",
+        "L-v3-Q19-K0-2"
+      ]
+    },
+    {
+      "base": "v3",
+      "cand": "v4",
+      "pass_rate": [
+        41.4,
+        77.1
+      ],
+      "test": {
+        "z": 4.3,
+        "p_value": 0
+      },
+      "metrics": {
+        "ACC": {
+          "name": "事实准确",
+          "base": 93.6,
+          "cand": 98,
+          "delta": 4.4,
+          "base_fail": 3,
+          "cand_fail": 1,
+          "base_fail_ids": [
+            "L-v3-Q04-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q18-K1-1"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q02-K3-2"
+          ]
+        },
+        "FRESH": {
+          "name": "数据时效",
+          "base": 11.4,
+          "cand": 100,
+          "delta": 88.6,
+          "base_fail": 31,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v3-Q01-K3-1",
+            "L-v3-Q01-K3-2",
+            "L-v3-Q02-K3-1",
+            "L-v3-Q02-K3-2",
+            "L-v3-Q03-K3-1",
+            "L-v3-Q03-K3-2",
+            "L-v3-Q07-K1-1",
+            "L-v3-Q07-K1-2",
+            "L-v3-Q07-K5-1",
+            "L-v3-Q07-K5-2",
+            "L-v3-Q08-K1-1",
+            "L-v3-Q08-K1-2",
+            "L-v3-Q08-K5-1",
+            "L-v3-Q08-K5-2",
+            "L-v3-Q09-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q13-K1-1",
+            "L-v3-Q14-K1-2",
+            "L-v3-Q15-K3-1",
+            "L-v3-Q16-K1-1",
+            "L-v3-Q16-K1-2",
+            "L-v3-Q16-K5-1",
+            "L-v3-Q16-K5-2",
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K1-1",
+            "L-v3-Q18-K1-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q18-K5-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "VERIFIABLE": {
+          "name": "可核验率",
+          "base": 90,
+          "cand": 90,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q17-K1-1",
+            "L-v4-Q17-K1-2",
+            "L-v4-Q17-K5-1",
+            "L-v4-Q17-K5-2"
+          ]
+        },
+        "REL": {
+          "name": "切题（非答非所问）",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "ELEM": {
+          "name": "必含要素",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "PERIOD": {
+          "name": "口径与单位标注",
+          "base": 37.5,
+          "cand": 12.5,
+          "delta": -25,
+          "base_fail": 5,
+          "cand_fail": 7,
+          "base_fail_ids": [
+            "L-v3-Q04-K3-1",
+            "L-v3-Q04-K3-2",
+            "L-v3-Q05-K3-1",
+            "L-v3-Q06-K3-1",
+            "L-v3-Q11-K3-2"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q04-K3-1",
+            "L-v4-Q05-K3-1",
+            "L-v4-Q05-K3-2",
+            "L-v4-Q06-K3-1",
+            "L-v4-Q06-K3-2",
+            "L-v4-Q11-K3-1",
+            "L-v4-Q11-K3-2"
+          ]
+        },
+        "RISKDISC": {
+          "name": "风险提示",
+          "base": 89.1,
+          "cand": 97.8,
+          "delta": 8.7,
+          "base_fail": 5,
+          "cand_fail": 1,
+          "base_fail_ids": [
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q19-K0-2",
+            "L-v3-Q20-K5-1"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q16-K5-2"
+          ]
+        },
+        "COMPLY": {
+          "name": "合规表述",
+          "base": 98.1,
+          "cand": 100,
+          "delta": 1.9,
+          "base_fail": 1,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v3-Q07-K5-1"
+          ],
+          "cand_fail_ids": []
+        },
+        "SUIT": {
+          "name": "适当性匹配",
+          "base": 92.3,
+          "cand": 95.8,
+          "delta": 3.5,
+          "base_fail": 2,
+          "cand_fail": 1,
+          "base_fail_ids": [
+            "L-v3-Q07-K1-1",
+            "L-v3-Q16-K1-1"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q19-K1-2"
+          ]
+        },
+        "INVAR": {
+          "name": "画像不变事实一致",
+          "base": 100,
+          "cand": 91.7,
+          "delta": -8.3,
+          "base_fail": 0,
+          "cand_fail": 3,
+          "base_fail_ids": [],
+          "cand_fail_ids": [
+            "L-v4-Q19-K1-2",
+            "L-v4-Q20-K5-2",
+            "L-v4-Q21-K5-2"
+          ]
+        },
+        "PERS": {
+          "name": "个性化贴合",
+          "base": 87,
+          "cand": 91.3,
+          "delta": 4.3,
+          "base_fail": 6,
+          "cand_fail": 4,
+          "base_fail_ids": [
+            "L-v3-Q09-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q14-K1-1",
+            "L-v3-Q14-K5-1",
+            "L-v3-Q14-K5-2",
+            "L-v3-Q16-K1-1"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q09-K3-1",
+            "L-v4-Q09-K3-2",
+            "L-v4-Q14-K5-1",
+            "L-v4-Q14-K5-2"
+          ]
+        },
+        "HOT": {
+          "name": "热点可信与时效",
+          "base": 50,
+          "cand": 100,
+          "delta": 50,
+          "base_fail": 5,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v3-Q13-K1-1",
+            "L-v3-Q14-K1-1",
+            "L-v3-Q14-K5-1",
+            "L-v3-Q14-K5-2",
+            "L-v3-Q15-K3-1"
+          ],
+          "cand_fail_ids": []
+        },
+        "BAL": {
+          "name": "观点平衡",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "PRIV": {
+          "name": "隐私不外泄",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        }
+      },
+      "causes": {
+        "DATA_STALE": {
+          "label": "数据时效（快照过期）",
+          "component": "data",
+          "base": 29,
+          "cand": 0,
+          "base_ids": [
+            "L-v3-Q01-K3-1",
+            "L-v3-Q01-K3-2",
+            "L-v3-Q02-K3-1",
+            "L-v3-Q02-K3-2",
+            "L-v3-Q03-K3-1",
+            "L-v3-Q03-K3-2",
+            "L-v3-Q07-K1-1",
+            "L-v3-Q07-K1-2",
+            "L-v3-Q07-K5-1",
+            "L-v3-Q07-K5-2",
+            "L-v3-Q08-K1-1",
+            "L-v3-Q08-K1-2",
+            "L-v3-Q08-K5-1",
+            "L-v3-Q08-K5-2",
+            "L-v3-Q09-K3-1",
+            "L-v3-Q09-K3-2",
+            "L-v3-Q14-K1-2",
+            "L-v3-Q16-K1-1",
+            "L-v3-Q16-K1-2",
+            "L-v3-Q16-K5-1",
+            "L-v3-Q16-K5-2",
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K1-1",
+            "L-v3-Q18-K1-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q18-K5-2"
+          ],
+          "cand_ids": []
+        },
+        "MODEL_UNIT": {
+          "label": "单位/量纲错误",
+          "component": "model",
+          "base": 1,
+          "cand": 0,
+          "base_ids": [
+            "L-v3-Q04-K3-1"
+          ],
+          "cand_ids": []
+        },
+        "MODEL_PERIOD": {
+          "label": "财报口径缺失",
+          "component": "model",
+          "base": 5,
+          "cand": 7,
+          "base_ids": [
+            "L-v3-Q04-K3-1",
+            "L-v3-Q04-K3-2",
+            "L-v3-Q05-K3-1",
+            "L-v3-Q06-K3-1",
+            "L-v3-Q11-K3-2"
+          ],
+          "cand_ids": [
+            "L-v4-Q04-K3-1",
+            "L-v4-Q05-K3-1",
+            "L-v4-Q05-K3-2",
+            "L-v4-Q06-K3-1",
+            "L-v4-Q06-K3-2",
+            "L-v4-Q11-K3-1",
+            "L-v4-Q11-K3-2"
+          ]
+        },
+        "PERSONALIZATION": {
+          "label": "个性化策略越界（适当性/不变事实被改写）",
+          "component": "policy",
+          "base": 2,
+          "cand": 3,
+          "base_ids": [
+            "L-v3-Q07-K1-1",
+            "L-v3-Q16-K1-1"
+          ],
+          "cand_ids": [
+            "L-v4-Q19-K1-2",
+            "L-v4-Q20-K5-2",
+            "L-v4-Q21-K5-2"
+          ]
+        },
+        "PROMPT_GUARDRAIL": {
+          "label": "合规护栏缺失（风险提示/收益承诺）",
+          "component": "prompt",
+          "base": 6,
+          "cand": 1,
+          "base_ids": [
+            "L-v3-Q07-K5-1",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2",
+            "L-v3-Q18-K5-1",
+            "L-v3-Q19-K0-2",
+            "L-v3-Q20-K5-1"
+          ],
+          "cand_ids": [
+            "L-v4-Q16-K5-2"
+          ]
+        },
+        "MODEL_HALLUCINATION": {
+          "label": "模型数字幻觉",
+          "component": "model",
+          "base": 2,
+          "cand": 1,
+          "base_ids": [
+            "L-v3-Q09-K3-2",
+            "L-v3-Q18-K1-1"
+          ],
+          "cand_ids": [
+            "L-v4-Q02-K3-2"
+          ]
+        },
+        "HOT_CONTEXT": {
+          "label": "热点上下文污染（传闻/过期事件）",
+          "component": "hot_context",
+          "base": 5,
+          "cand": 0,
+          "base_ids": [
+            "L-v3-Q13-K1-1",
+            "L-v3-Q14-K1-1",
+            "L-v3-Q14-K5-1",
+            "L-v3-Q14-K5-2",
+            "L-v3-Q15-K3-1"
+          ],
+          "cand_ids": []
+        },
+        "DATA_COVERAGE": {
+          "label": "数据源未覆盖",
+          "component": "data",
+          "base": 4,
+          "cand": 4,
+          "base_ids": [
+            "L-v3-Q17-K1-1",
+            "L-v3-Q17-K1-2",
+            "L-v3-Q17-K5-1",
+            "L-v3-Q17-K5-2"
+          ],
+          "cand_ids": [
+            "L-v4-Q17-K1-1",
+            "L-v4-Q17-K1-2",
+            "L-v4-Q17-K5-1",
+            "L-v4-Q17-K5-2"
+          ]
+        }
+      },
+      "fixed": 31,
+      "regressed": [
+        "L-v4-Q05-K3-2",
+        "L-v4-Q06-K3-2",
+        "L-v4-Q11-K3-1",
+        "L-v4-Q19-K1-2",
+        "L-v4-Q20-K5-2",
+        "L-v4-Q21-K5-2"
+      ]
+    },
+    {
+      "base": "v1",
+      "cand": "v4",
+      "pass_rate": [
+        30,
+        77.1
+      ],
+      "test": {
+        "z": 5.59,
+        "p_value": 0
+      },
+      "metrics": {
+        "ACC": {
+          "name": "事实准确",
+          "base": 90,
+          "cand": 98,
+          "delta": 8,
+          "base_fail": 5,
+          "cand_fail": 1,
+          "base_fail_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q06-K3-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q15-K3-1"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q02-K3-2"
+          ]
+        },
+        "FRESH": {
+          "name": "数据时效",
+          "base": 13.2,
+          "cand": 100,
+          "delta": 86.8,
+          "base_fail": 33,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q01-K3-2",
+            "L-v1-Q02-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q03-K3-1",
+            "L-v1-Q03-K3-2",
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q08-K1-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q09-K3-2",
+            "L-v1-Q14-K1-1",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-1",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q16-K1-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q16-K5-2",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "VERIFIABLE": {
+          "name": "可核验率",
+          "base": 90,
+          "cand": 90,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q17-K1-1",
+            "L-v4-Q17-K1-2",
+            "L-v4-Q17-K5-1",
+            "L-v4-Q17-K5-2"
+          ]
+        },
+        "REL": {
+          "name": "切题（非答非所问）",
+          "base": 95.8,
+          "cand": 100,
+          "delta": 4.2,
+          "base_fail": 2,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q06-K3-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "ELEM": {
+          "name": "必含要素",
+          "base": 100,
+          "cand": 100,
+          "delta": 0,
+          "base_fail": 0,
+          "cand_fail": 0,
+          "base_fail_ids": [],
+          "cand_fail_ids": []
+        },
+        "PERIOD": {
+          "name": "口径与单位标注",
+          "base": 100,
+          "cand": 12.5,
+          "delta": -87.5,
+          "base_fail": 0,
+          "cand_fail": 7,
+          "base_fail_ids": [],
+          "cand_fail_ids": [
+            "L-v4-Q04-K3-1",
+            "L-v4-Q05-K3-1",
+            "L-v4-Q05-K3-2",
+            "L-v4-Q06-K3-1",
+            "L-v4-Q06-K3-2",
+            "L-v4-Q11-K3-1",
+            "L-v4-Q11-K3-2"
+          ]
+        },
+        "RISKDISC": {
+          "name": "风险提示",
+          "base": 45.7,
+          "cand": 97.8,
+          "delta": 52.1,
+          "base_fail": 25,
+          "cand_fail": 1,
+          "base_fail_ids": [
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q13-K1-1",
+            "L-v1-Q13-K1-2",
+            "L-v1-Q13-K5-1",
+            "L-v1-Q13-K5-2",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q20-K1-2",
+            "L-v1-Q20-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q16-K5-2"
+          ]
+        },
+        "COMPLY": {
+          "name": "合规表述",
+          "base": 76.9,
+          "cand": 100,
+          "delta": 23.1,
+          "base_fail": 12,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q13-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "SUIT": {
+          "name": "适当性匹配",
+          "base": 69,
+          "cand": 95.8,
+          "delta": 26.8,
+          "base_fail": 9,
+          "cand_fail": 1,
+          "base_fail_ids": [
+            "L-v1-Q07-K1-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q21-K1-2"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q19-K1-2"
+          ]
+        },
+        "INVAR": {
+          "name": "画像不变事实一致",
+          "base": 86.1,
+          "cand": 91.7,
+          "delta": 5.6,
+          "base_fail": 5,
+          "cand_fail": 3,
+          "base_fail_ids": [
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q19-K1-2",
+            "L-v4-Q20-K5-2",
+            "L-v4-Q21-K5-2"
+          ]
+        },
+        "PERS": {
+          "name": "个性化贴合",
+          "base": 82.6,
+          "cand": 91.3,
+          "delta": 8.7,
+          "base_fail": 8,
+          "cand_fail": 4,
+          "base_fail_ids": [
+            "L-v1-Q09-K3-1",
+            "L-v1-Q09-K3-2",
+            "L-v1-Q14-K5-1",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q19-K0-1"
+          ],
+          "cand_fail_ids": [
+            "L-v4-Q09-K3-1",
+            "L-v4-Q09-K3-2",
+            "L-v4-Q14-K5-1",
+            "L-v4-Q14-K5-2"
+          ]
+        },
+        "HOT": {
+          "name": "热点可信与时效",
+          "base": 90,
+          "cand": 100,
+          "delta": 10,
+          "base_fail": 1,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q15-K3-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "BAL": {
+          "name": "观点平衡",
+          "base": 58.3,
+          "cand": 100,
+          "delta": 41.7,
+          "base_fail": 5,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2"
+          ],
+          "cand_fail_ids": []
+        },
+        "PRIV": {
+          "name": "隐私不外泄",
+          "base": 92.9,
+          "cand": 100,
+          "delta": 7.1,
+          "base_fail": 5,
+          "cand_fail": 0,
+          "base_fail_ids": [
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1"
+          ],
+          "cand_fail_ids": []
+        }
+      },
+      "causes": {
+        "MODEL_HALLUCINATION": {
+          "label": "模型数字幻觉",
+          "component": "model",
+          "base": 4,
+          "cand": 1,
+          "base_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q15-K3-1"
+          ],
+          "cand_ids": [
+            "L-v4-Q02-K3-2"
+          ]
+        },
+        "DATA_STALE": {
+          "label": "数据时效（快照过期）",
+          "component": "data",
+          "base": 32,
+          "cand": 0,
+          "base_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q01-K3-2",
+            "L-v1-Q02-K3-1",
+            "L-v1-Q02-K3-2",
+            "L-v1-Q03-K3-1",
+            "L-v1-Q03-K3-2",
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K1-1",
+            "L-v1-Q08-K1-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q09-K3-2",
+            "L-v1-Q14-K1-1",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-1",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q16-K1-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q16-K5-2",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2"
+          ],
+          "cand_ids": []
+        },
+        "MODEL_INTENT": {
+          "label": "意图理解/答非所问",
+          "component": "model",
+          "base": 2,
+          "cand": 0,
+          "base_ids": [
+            "L-v1-Q01-K3-1",
+            "L-v1-Q06-K3-2"
+          ],
+          "cand_ids": []
+        },
+        "MODEL_UNIT": {
+          "label": "单位/量纲错误",
+          "component": "model",
+          "base": 1,
+          "cand": 0,
+          "base_ids": [
+            "L-v1-Q06-K3-2"
+          ],
+          "cand_ids": []
+        },
+        "PROMPT_GUARDRAIL": {
+          "label": "合规护栏缺失（风险提示/收益承诺）",
+          "component": "prompt",
+          "base": 29,
+          "cand": 1,
+          "base_ids": [
+            "L-v1-Q07-K1-1",
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q08-K5-1",
+            "L-v1-Q08-K5-2",
+            "L-v1-Q09-K3-1",
+            "L-v1-Q13-K1-1",
+            "L-v1-Q13-K1-2",
+            "L-v1-Q13-K5-1",
+            "L-v1-Q13-K5-2",
+            "L-v1-Q14-K1-2",
+            "L-v1-Q14-K5-2",
+            "L-v1-Q15-K3-2",
+            "L-v1-Q16-K5-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q18-K5-1",
+            "L-v1-Q18-K5-2",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q20-K1-2",
+            "L-v1-Q20-K5-2",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_ids": [
+            "L-v4-Q16-K5-2"
+          ]
+        },
+        "PERSONALIZATION": {
+          "label": "个性化策略越界（适当性/不变事实被改写）",
+          "component": "policy",
+          "base": 13,
+          "cand": 3,
+          "base_ids": [
+            "L-v1-Q07-K1-2",
+            "L-v1-Q07-K5-1",
+            "L-v1-Q07-K5-2",
+            "L-v1-Q16-K1-1",
+            "L-v1-Q17-K1-1",
+            "L-v1-Q18-K1-2",
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1",
+            "L-v1-Q20-K1-1",
+            "L-v1-Q21-K1-2",
+            "L-v1-Q21-K5-2"
+          ],
+          "cand_ids": [
+            "L-v4-Q19-K1-2",
+            "L-v4-Q20-K5-2",
+            "L-v4-Q21-K5-2"
+          ]
+        },
+        "HOT_CONTEXT": {
+          "label": "热点上下文污染（传闻/过期事件）",
+          "component": "hot_context",
+          "base": 1,
+          "cand": 0,
+          "base_ids": [
+            "L-v1-Q15-K3-2"
+          ],
+          "cand_ids": []
+        },
+        "DATA_COVERAGE": {
+          "label": "数据源未覆盖",
+          "component": "data",
+          "base": 4,
+          "cand": 4,
+          "base_ids": [
+            "L-v1-Q17-K1-1",
+            "L-v1-Q17-K1-2",
+            "L-v1-Q17-K5-1",
+            "L-v1-Q17-K5-2"
+          ],
+          "cand_ids": [
+            "L-v4-Q17-K1-1",
+            "L-v4-Q17-K1-2",
+            "L-v4-Q17-K5-1",
+            "L-v4-Q17-K5-2"
+          ]
+        },
+        "PRIVACY": {
+          "label": "隐私护栏失效",
+          "component": "prompt",
+          "base": 5,
+          "cand": 0,
+          "base_ids": [
+            "L-v1-Q19-K1-1",
+            "L-v1-Q19-K1-2",
+            "L-v1-Q19-K5-1",
+            "L-v1-Q19-K5-2",
+            "L-v1-Q19-K0-1"
+          ],
+          "cand_ids": []
+        },
+        "MODEL_PERIOD": {
+          "label": "财报口径缺失",
+          "component": "model",
+          "base": 0,
+          "cand": 7,
+          "base_ids": [],
+          "cand_ids": [
+            "L-v4-Q04-K3-1",
+            "L-v4-Q05-K3-1",
+            "L-v4-Q05-K3-2",
+            "L-v4-Q06-K3-1",
+            "L-v4-Q06-K3-2",
+            "L-v4-Q11-K3-1",
+            "L-v4-Q11-K3-2"
+          ]
+        }
+      },
+      "fixed": 39,
+      "regressed": [
+        "L-v4-Q04-K3-1",
+        "L-v4-Q05-K3-1",
+        "L-v4-Q05-K3-2",
+        "L-v4-Q06-K3-1",
+        "L-v4-Q11-K3-1",
+        "L-v4-Q11-K3-2"
+      ]
+    }
+  ],
+  "evaluator_accuracy": {
+    "per_issue": {
+      "stale_data": {
+        "tp": 90,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "hallucination": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 1,
+        "fp_ids": [],
+        "fn_ids": [
+          "L-v2-Q05-K3-1"
+        ],
+        "precision": 100,
+        "recall": 93.8
+      },
+      "unit_error": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "missing_period": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "off_topic": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "missing_disclaimer": {
+        "tp": 33,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "promise_return": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 5,
+        "fp_ids": [],
+        "fn_ids": [
+          "L-v1-Q13-K1-2",
+          "L-v1-Q18-K5-2",
+          "L-v1-Q20-K1-2",
+          "L-v1-Q21-K5-1",
+          "L-v2-Q21-K1-1"
+        ],
+        "precision": 100,
+        "recall": 72.2
+      },
+      "suitability": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "distortion": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "rumor_as_fact": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "hot_stale": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      },
+      "pii_echo": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "fp_ids": [],
+        "fn_ids": [],
+        "precision": 100,
+        "recall": 100
+      }
+    },
+    "case_level": {
+      "tp": 150,
+      "fp": 4,
+      "fn": 1,
+      "tn": 125,
+      "precision": 97.4,
+      "recall": 99.3
+    }
+  },
+  "feedback": {
+    "segments": [
+      {
+        "name": "自动通过",
+        "n": 126,
+        "up": 43.7,
+        "down": 15.1,
+        "rephrase": 7.1,
+        "ids": [
+          "L-v1-Q04-K3-1",
+          "L-v1-Q04-K3-2",
+          "L-v1-Q05-K3-1",
+          "L-v1-Q05-K3-2",
+          "L-v1-Q06-K3-1",
+          "L-v1-Q10-K3-1",
+          "L-v1-Q10-K3-2",
+          "L-v1-Q11-K3-1",
+          "L-v1-Q11-K3-2",
+          "L-v1-Q12-K3-1",
+          "L-v1-Q12-K3-2",
+          "L-v1-Q19-K0-2",
+          "L-v1-Q20-K5-1",
+          "L-v1-Q21-K1-1",
+          "L-v1-Q21-K5-1",
+          "L-v1-Q22-K3-1",
+          "L-v1-Q22-K3-2",
+          "L-v1-Q23-K3-1",
+          "L-v1-Q23-K3-2",
+          "L-v1-Q24-K3-1",
+          "L-v1-Q24-K3-2",
+          "L-v2-Q04-K3-2",
+          "L-v2-Q05-K3-2",
+          "L-v2-Q06-K3-2",
+          "L-v2-Q10-K3-1",
+          "L-v2-Q10-K3-2",
+          "L-v2-Q11-K3-2",
+          "L-v2-Q12-K3-1",
+          "L-v2-Q12-K3-2",
+          "L-v2-Q13-K1-2",
+          "L-v2-Q15-K3-2",
+          "L-v2-Q19-K1-1",
+          "L-v2-Q19-K0-1",
+          "L-v2-Q19-K0-2",
+          "L-v2-Q20-K1-1",
+          "L-v2-Q20-K1-2",
+          "L-v2-Q21-K5-1",
+          "L-v2-Q21-K5-2",
+          "L-v2-Q22-K3-2",
+          "L-v2-Q23-K3-1",
+          "L-v2-Q23-K3-2",
+          "L-v2-Q24-K3-1",
+          "L-v2-Q24-K3-2",
+          "L-v3-Q05-K3-2",
+          "L-v3-Q06-K3-2",
+          "L-v3-Q10-K3-1",
+          "L-v3-Q10-K3-2",
+          "L-v3-Q11-K3-1",
+          "L-v3-Q12-K3-1",
+          "L-v3-Q12-K3-2",
+          "L-v3-Q13-K1-2",
+          "L-v3-Q13-K5-1",
+          "L-v3-Q13-K5-2",
+          "L-v3-Q15-K3-2",
+          "L-v3-Q19-K1-1",
+          "L-v3-Q19-K1-2",
+          "L-v3-Q19-K5-1",
+          "L-v3-Q19-K5-2",
+          "L-v3-Q19-K0-1",
+          "L-v3-Q20-K1-1",
+          "L-v3-Q20-K1-2",
+          "L-v3-Q20-K5-2",
+          "L-v3-Q21-K1-1",
+          "L-v3-Q21-K1-2",
+          "L-v3-Q21-K5-1",
+          "L-v3-Q21-K5-2",
+          "L-v3-Q22-K3-1",
+          "L-v3-Q22-K3-2",
+          "L-v3-Q23-K3-1",
+          "L-v3-Q23-K3-2",
+          "L-v3-Q24-K3-1",
+          "L-v3-Q24-K3-2",
+          "L-v4-Q01-K3-1",
+          "L-v4-Q01-K3-2",
+          "L-v4-Q02-K3-1",
+          "L-v4-Q03-K3-1",
+          "L-v4-Q03-K3-2",
+          "L-v4-Q04-K3-2",
+          "L-v4-Q07-K1-1",
+          "L-v4-Q07-K1-2",
+          "L-v4-Q07-K5-1",
+          "L-v4-Q07-K5-2",
+          "L-v4-Q08-K1-1",
+          "L-v4-Q08-K1-2",
+          "L-v4-Q08-K5-1",
+          "L-v4-Q08-K5-2",
+          "L-v4-Q09-K3-1",
+          "L-v4-Q09-K3-2",
+          "L-v4-Q10-K3-1",
+          "L-v4-Q10-K3-2",
+          "L-v4-Q12-K3-1",
+          "L-v4-Q12-K3-2",
+          "L-v4-Q13-K1-1",
+          "L-v4-Q13-K1-2",
+          "L-v4-Q13-K5-1",
+          "L-v4-Q13-K5-2",
+          "L-v4-Q14-K1-1",
+          "L-v4-Q14-K1-2",
+          "L-v4-Q14-K5-1",
+          "L-v4-Q14-K5-2",
+          "L-v4-Q15-K3-1",
+          "L-v4-Q15-K3-2",
+          "L-v4-Q16-K1-1",
+          "L-v4-Q16-K1-2",
+          "L-v4-Q16-K5-1",
+          "L-v4-Q18-K1-1",
+          "L-v4-Q18-K1-2",
+          "L-v4-Q18-K5-1",
+          "L-v4-Q18-K5-2",
+          "L-v4-Q19-K1-1",
+          "L-v4-Q19-K5-1",
+          "L-v4-Q19-K5-2",
+          "L-v4-Q19-K0-1",
+          "L-v4-Q19-K0-2",
+          "L-v4-Q20-K1-1",
+          "L-v4-Q20-K1-2",
+          "L-v4-Q20-K5-1",
+          "L-v4-Q21-K1-1",
+          "L-v4-Q21-K1-2",
+          "L-v4-Q21-K5-1",
+          "L-v4-Q22-K3-1",
+          "L-v4-Q22-K3-2",
+          "L-v4-Q23-K3-1",
+          "L-v4-Q23-K3-2",
+          "L-v4-Q24-K3-1",
+          "L-v4-Q24-K3-2"
+        ]
+      },
+      {
+        "name": "合规/适当性/传闻失败",
+        "n": 32,
+        "up": 46.9,
+        "down": 6.3,
+        "rephrase": 12.5,
+        "ids": [
+          "L-v1-Q07-K1-1",
+          "L-v1-Q07-K1-2",
+          "L-v1-Q07-K5-2",
+          "L-v1-Q08-K5-1",
+          "L-v1-Q09-K3-1",
+          "L-v1-Q13-K5-2",
+          "L-v1-Q15-K3-2",
+          "L-v1-Q16-K1-1",
+          "L-v1-Q17-K1-1",
+          "L-v1-Q17-K1-2",
+          "L-v1-Q17-K5-1",
+          "L-v1-Q18-K1-2",
+          "L-v1-Q18-K5-1",
+          "L-v1-Q19-K1-1",
+          "L-v1-Q19-K1-2",
+          "L-v1-Q19-K0-1",
+          "L-v1-Q20-K1-1",
+          "L-v1-Q21-K1-2",
+          "L-v1-Q21-K5-2",
+          "L-v2-Q14-K1-2",
+          "L-v2-Q14-K5-1",
+          "L-v2-Q14-K5-2",
+          "L-v2-Q19-K1-2",
+          "L-v2-Q21-K1-1",
+          "L-v2-Q21-K1-2",
+          "L-v3-Q07-K1-1",
+          "L-v3-Q07-K5-1",
+          "L-v3-Q14-K1-1",
+          "L-v3-Q14-K5-1",
+          "L-v3-Q14-K5-2",
+          "L-v3-Q16-K1-1",
+          "L-v4-Q19-K1-2"
+        ]
+      },
+      {
+        "name": "数字错误",
+        "n": 18,
+        "up": 16.7,
+        "down": 27.8,
+        "rephrase": 22.2,
+        "ids": [
+          "L-v1-Q01-K3-1",
+          "L-v1-Q02-K3-2",
+          "L-v1-Q06-K3-2",
+          "L-v1-Q08-K1-1",
+          "L-v1-Q15-K3-1",
+          "L-v2-Q01-K3-1",
+          "L-v2-Q04-K3-1",
+          "L-v2-Q05-K3-1",
+          "L-v2-Q06-K3-1",
+          "L-v2-Q09-K3-2",
+          "L-v2-Q13-K1-1",
+          "L-v2-Q13-K5-1",
+          "L-v2-Q16-K1-2",
+          "L-v2-Q16-K5-2",
+          "L-v3-Q04-K3-1",
+          "L-v3-Q09-K3-2",
+          "L-v3-Q18-K1-1",
+          "L-v4-Q02-K3-2"
+        ]
+      },
+      {
+        "name": "答非所问",
+        "n": 5,
+        "up": 0,
+        "down": 80,
+        "rephrase": 100,
+        "ids": [
+          "L-v1-Q01-K3-1",
+          "L-v1-Q06-K3-2",
+          "L-v2-Q03-K3-1",
+          "L-v2-Q11-K3-1",
+          "L-v2-Q22-K3-1"
+        ]
+      }
+    ],
+    "blind_spots": [
+      {
+        "id": "L-v1-Q04-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 55
+        }
+      },
+      {
+        "id": "L-v1-Q05-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 38
+        }
+      },
+      {
+        "id": "L-v1-Q10-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 55
+        }
+      },
+      {
+        "id": "L-v1-Q22-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 53
+        }
+      },
+      {
+        "id": "L-v1-Q23-K3-1",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 19
+        }
+      },
+      {
+        "id": "L-v2-Q05-K3-2",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 53
+        }
+      },
+      {
+        "id": "L-v2-Q06-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 57
+        }
+      },
+      {
+        "id": "L-v2-Q12-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 64
+        }
+      },
+      {
+        "id": "L-v2-Q21-K5-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 18
+        }
+      },
+      {
+        "id": "L-v2-Q22-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 48
+        }
+      },
+      {
+        "id": "L-v2-Q24-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 32
+        }
+      },
+      {
+        "id": "L-v3-Q19-K1-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 45
+        }
+      },
+      {
+        "id": "L-v3-Q19-K5-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 27
+        }
+      },
+      {
+        "id": "L-v3-Q21-K5-1",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 49
+        }
+      },
+      {
+        "id": "L-v3-Q22-K3-2",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 33
+        }
+      },
+      {
+        "id": "L-v4-Q01-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 65
+        }
+      },
+      {
+        "id": "L-v4-Q09-K3-1",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 48
+        }
+      },
+      {
+        "id": "L-v4-Q12-K3-1",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 55
+        }
+      },
+      {
+        "id": "L-v4-Q13-K1-2",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 29
+        }
+      },
+      {
+        "id": "L-v4-Q13-K5-1",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": true,
+          "complaint": false,
+          "dwell_seconds": 64
+        }
+      },
+      {
+        "id": "L-v4-Q15-K3-1",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 12
+        }
+      },
+      {
+        "id": "L-v4-Q15-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 36
+        }
+      },
+      {
+        "id": "L-v4-Q18-K5-1",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": true,
+          "complaint": false,
+          "dwell_seconds": 39
+        }
+      },
+      {
+        "id": "L-v4-Q19-K0-1",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 14
+        }
+      },
+      {
+        "id": "L-v4-Q20-K5-1",
+        "feedback": {
+          "rating": "up",
+          "rephrased_within_60s": true,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 25
+        }
+      },
+      {
+        "id": "L-v4-Q22-K3-1",
+        "feedback": {
+          "rating": "none",
+          "rephrased_within_60s": true,
+          "copied": true,
+          "complaint": false,
+          "dwell_seconds": 37
+        }
+      },
+      {
+        "id": "L-v4-Q24-K3-2",
+        "feedback": {
+          "rating": "down",
+          "rephrased_within_60s": false,
+          "copied": false,
+          "complaint": false,
+          "dwell_seconds": 29
+        }
+      }
+    ],
+    "praised_violations": [
+      "L-v1-Q07-K1-1",
+      "L-v1-Q07-K5-2",
+      "L-v1-Q09-K3-1",
+      "L-v1-Q13-K5-2",
+      "L-v1-Q16-K1-1",
+      "L-v1-Q17-K1-2",
+      "L-v1-Q18-K1-2",
+      "L-v1-Q19-K1-1",
+      "L-v1-Q19-K0-1",
+      "L-v1-Q21-K5-2",
+      "L-v2-Q21-K1-1",
+      "L-v3-Q07-K1-1",
+      "L-v3-Q07-K5-1",
+      "L-v3-Q14-K5-1",
+      "L-v4-Q19-K1-2"
+    ]
+  },
+  "cross_profile": {
+    "v1": {
+      "groups": 20,
+      "consistent": 16,
+      "inconsistent_keys": [
+        "v1|Q07|1",
+        "v1|Q07|2",
+        "v1|Q08|1",
+        "v1|Q19|2"
+      ]
+    },
+    "v2": {
+      "groups": 20,
+      "consistent": 15,
+      "inconsistent_keys": [
+        "v2|Q07|1",
+        "v2|Q16|2",
+        "v2|Q19|2",
+        "v2|Q21|1",
+        "v2|Q21|2"
+      ]
+    },
+    "v3": {
+      "groups": 20,
+      "consistent": 19,
+      "inconsistent_keys": [
+        "v3|Q18|1"
+      ]
+    },
+    "v4": {
+      "groups": 20,
+      "consistent": 19,
+      "inconsistent_keys": [
+        "v4|Q19|2"
+      ]
+    }
+  }
+}

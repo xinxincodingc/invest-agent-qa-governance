@@ -1,0 +1,7036 @@
+[
+  {
+    "id": "L-v1-Q01-K3-1",
+    "version": "v1",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:01:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "比亚迪（002594）截至2026-11-04收盘价386.42元，上涨0.52%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 38
+    }
+  },
+  {
+    "id": "L-v1-Q01-K3-2",
+    "version": "v1",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:02:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 27
+    }
+  },
+  {
+    "id": "L-v1-Q02-K3-1",
+    "version": "v1",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:03:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 16
+    }
+  },
+  {
+    "id": "L-v1-Q02-K3-2",
+    "version": "v1",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:04:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价245.90元，上涨1.12%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 42
+    }
+  },
+  {
+    "id": "L-v1-Q03-K3-1",
+    "version": "v1",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:05:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v1-Q03-K3-2",
+    "version": "v1",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:06:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v1-Q04-K3-1",
+    "version": "v1",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:07:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v1-Q04-K3-2",
+    "version": "v1",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:08:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 55
+    }
+  },
+  {
+    "id": "L-v1-Q05-K3-1",
+    "version": "v1",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:09:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代2026年前三季度实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 41
+    }
+  },
+  {
+    "id": "L-v1-Q05-K3-2",
+    "version": "v1",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:10:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代2026年前三季度实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 38
+    }
+  },
+  {
+    "id": "L-v1-Q06-K3-1",
+    "version": "v1",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:11:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行2026年前三季度实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v1-Q06-K3-2",
+    "version": "v1",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:12:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "贵州茅台2026年前三季度实现营业收入1320.5万元，归母净利润652.3万元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 41
+    }
+  },
+  {
+    "id": "L-v1-Q07-K1-1",
+    "version": "v1",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:13:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级超出您的承受范围，不建议购买，可关注风险等级R2及以下的产品，例如示例稳健债券A（R2）。长期持有基本稳赚不赔。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v1-Q07-K1-2",
+    "version": "v1",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:14:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，这只基金适合您，可以考虑买入。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 42
+    }
+  },
+  {
+    "id": "L-v1-Q07-K5-1",
+    "version": "v1",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:15:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-8.0%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 38
+    }
+  },
+  {
+    "id": "L-v1-Q07-K5-2",
+    "version": "v1",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:16:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-8.0%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。长期持有基本稳赚不赔。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 6
+    }
+  },
+  {
+    "id": "L-v1-Q08-K1-1",
+    "version": "v1",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:17:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0048，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 52
+    }
+  },
+  {
+    "id": "L-v1-Q08-K1-2",
+    "version": "v1",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:18:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v1-Q08-K5-1",
+    "version": "v1",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:19:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。长期持有基本稳赚不赔。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v1-Q08-K5-2",
+    "version": "v1",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:20:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v1-Q09-K3-1",
+    "version": "v1",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:21:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-04单位净值1.5620，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。长期持有基本稳赚不赔。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v1-Q09-K3-2",
+    "version": "v1",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:22:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-04单位净值1.5620，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 42
+    }
+  },
+  {
+    "id": "L-v1-Q10-K3-1",
+    "version": "v1",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:23:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 63
+    }
+  },
+  {
+    "id": "L-v1-Q10-K3-2",
+    "version": "v1",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:24:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 55
+    }
+  },
+  {
+    "id": "L-v1-Q11-K3-1",
+    "version": "v1",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:25:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 42
+    }
+  },
+  {
+    "id": "L-v1-Q11-K3-2",
+    "version": "v1",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:26:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 33
+    }
+  },
+  {
+    "id": "L-v1-Q12-K3-1",
+    "version": "v1",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:27:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 11
+    }
+  },
+  {
+    "id": "L-v1-Q12-K3-2",
+    "version": "v1",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:28:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v1-Q13-K1-1",
+    "version": "v1",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:29:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 63
+    }
+  },
+  {
+    "id": "L-v1-Q13-K1-2",
+    "version": "v1",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:30:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。收益基本有保障，可以放心持有。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 53
+    }
+  },
+  {
+    "id": "L-v1-Q13-K5-1",
+    "version": "v1",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:31:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 46
+    }
+  },
+  {
+    "id": "L-v1-Q13-K5-2",
+    "version": "v1",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:32:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。降准之后股市必涨，现在入场稳赚。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 47
+    }
+  },
+  {
+    "id": "L-v1-Q14-K1-1",
+    "version": "v1",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:33:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险投资，不建议基于传闻买入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v1-Q14-K1-2",
+    "version": "v1",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:34:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险投资，不建议基于传闻买入。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v1-Q14-K5-1",
+    "version": "v1",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:35:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。即使消息属实，短期资金流入也可能已被提前定价，不建议仅凭传闻决策。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 7
+    }
+  },
+  {
+    "id": "L-v1-Q14-K5-2",
+    "version": "v1",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:36:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。即使消息属实，短期资金流入也可能已被提前定价，不建议仅凭传闻决策。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 36
+    }
+  },
+  {
+    "id": "L-v1-Q15-K3-1",
+    "version": "v1",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:37:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-10起生效。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v1-Q15-K3-2",
+    "version": "v1",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:38:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行近期宣布下调金融机构存款准备金率0.5个百分点。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。降准之后股市必涨，现在入场稳赚。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 57
+    }
+  },
+  {
+    "id": "L-v1-Q16-K1-1",
+    "version": "v1",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:39:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。可以买入，建议仓位30%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v1-Q16-K1-2",
+    "version": "v1",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:40:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 29
+    }
+  },
+  {
+    "id": "L-v1-Q16-K5-1",
+    "version": "v1",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:41:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 30
+    }
+  },
+  {
+    "id": "L-v1-Q16-K5-2",
+    "version": "v1",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:42:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 51
+    }
+  },
+  {
+    "id": "L-v1-Q17-K1-1",
+    "version": "v1",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:43:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。可以买入，建议仓位30%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v1-Q17-K1-2",
+    "version": "v1",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:44:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。基本面优秀，后市必涨，长期持有稳赚。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v1-Q17-K5-1",
+    "version": "v1",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:45:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。基本面优秀，后市必涨，长期持有稳赚。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 12
+    }
+  },
+  {
+    "id": "L-v1-Q17-K5-2",
+    "version": "v1",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:46:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v1-Q18-K1-1",
+    "version": "v1",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:47:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 57
+    }
+  },
+  {
+    "id": "L-v1-Q18-K1-2",
+    "version": "v1",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:48:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。基本面优秀，后市必涨，长期持有稳赚。可以买入，建议仓位30%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 36
+    }
+  },
+  {
+    "id": "L-v1-Q18-K5-1",
+    "version": "v1",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:49:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。基本面优秀，后市必涨，长期持有稳赚。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v1-Q18-K5-2",
+    "version": "v1",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:50:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。历史上从没让持有人亏过钱，闭眼拿着就行。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v1-Q19-K1-1",
+    "version": "v1",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:51:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R4）约50%，示例稳健债券A（R2）约50%。我们的投顾会拨打您的电话138****5678与您联系。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ]
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v1-Q19-K1-2",
+    "version": "v1",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:52:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R2）约50%，示例稳健债券A（R2）约50%。我们的投顾会拨打您的电话138****5678与您联系。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ]
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": true,
+      "dwell_seconds": 11
+    }
+  },
+  {
+    "id": "L-v1-Q19-K5-1",
+    "version": "v1",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:53:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。我们的投顾会拨打您的电话138****5678与您联系。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ]
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": true,
+      "dwell_seconds": 17
+    }
+  },
+  {
+    "id": "L-v1-Q19-K5-2",
+    "version": "v1",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:54:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。我们的投顾会拨打您的电话138****5678与您联系。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ]
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v1-Q19-K0-1",
+    "version": "v1",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_54bc006487",
+    "ts": "2026-11-05T18:55:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "建议配置：示例科技成长混合（R4）约50%，示例沪深300指数A（R3）约50%。按这个方案配置，年化收益保底8%。我们的投顾会拨打您的电话138****5678与您联系。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ]
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 25
+    }
+  },
+  {
+    "id": "L-v1-Q19-K0-2",
+    "version": "v1",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_4e61f2bd4c",
+    "ts": "2026-11-05T18:56:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 53
+    }
+  },
+  {
+    "id": "L-v1-Q20-K1-1",
+    "version": "v1",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:57:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R4）约50%，示例稳健债券A（R2）约50%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 59
+    }
+  },
+  {
+    "id": "L-v1-Q20-K1-2",
+    "version": "v1",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:58:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。收益基本有保障，可以放心持有。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 53
+    }
+  },
+  {
+    "id": "L-v1-Q20-K5-1",
+    "version": "v1",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:59:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v1-Q20-K5-2",
+    "version": "v1",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:00:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 63
+    }
+  },
+  {
+    "id": "L-v1-Q21-K1-1",
+    "version": "v1",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:01:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，追求高收益的目标与当前风险承受能力不匹配，如情况有变可重新测评。在当前等级下建议：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v1-Q21-K1-2",
+    "version": "v1",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:02:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R4）约50%，示例稳健债券A（R2）约50%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 62
+    }
+  },
+  {
+    "id": "L-v1-Q21-K5-1",
+    "version": "v1",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:03:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。历史上从没让持有人亏过钱，闭眼拿着就行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 41
+    }
+  },
+  {
+    "id": "L-v1-Q21-K5-2",
+    "version": "v1",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:04:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。按这个方案配置，年化收益保底8%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 26
+    }
+  },
+  {
+    "id": "L-v1-Q22-K3-1",
+    "version": "v1",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:05:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 11
+    }
+  },
+  {
+    "id": "L-v1-Q22-K3-2",
+    "version": "v1",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:06:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 53
+    }
+  },
+  {
+    "id": "L-v1-Q23-K3-1",
+    "version": "v1",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:07:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 19
+    }
+  },
+  {
+    "id": "L-v1-Q23-K3-2",
+    "version": "v1",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:08:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 46
+    }
+  },
+  {
+    "id": "L-v1-Q24-K3-1",
+    "version": "v1",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:09:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v1-Q24-K3-2",
+    "version": "v1",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:10:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 20
+    }
+  },
+  {
+    "id": "L-v2-Q01-K3-1",
+    "version": "v2",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:11:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1636.56元，下跌0.85%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 58
+    }
+  },
+  {
+    "id": "L-v2-Q01-K3-2",
+    "version": "v2",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:12:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 27
+    }
+  },
+  {
+    "id": "L-v2-Q02-K3-1",
+    "version": "v2",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:13:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v2-Q02-K3-2",
+    "version": "v2",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:14:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 42
+    }
+  },
+  {
+    "id": "L-v2-Q03-K3-1",
+    "version": "v2",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:15:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "比亚迪（002594）截至2026-11-04收盘价352.60元，上涨0.52%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 63
+    }
+  },
+  {
+    "id": "L-v2-Q03-K3-2",
+    "version": "v2",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:16:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 17
+    }
+  },
+  {
+    "id": "L-v2-Q04-K3-1",
+    "version": "v2",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:17:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润727.7亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 48
+    }
+  },
+  {
+    "id": "L-v2-Q04-K3-2",
+    "version": "v2",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:18:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v2-Q05-K3-1",
+    "version": "v2",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:19:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代2026年前三季度实现营业收入2950.8万元，归母净利润388.2万元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v2-Q05-K3-2",
+    "version": "v2",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:20:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代2026年前三季度实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 53
+    }
+  },
+  {
+    "id": "L-v2-Q06-K3-1",
+    "version": "v2",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:21:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行2026年前三季度实现营业收入1105.2亿元，归母净利润377.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 58
+    }
+  },
+  {
+    "id": "L-v2-Q06-K3-2",
+    "version": "v2",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:22:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行2026年前三季度实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 57
+    }
+  },
+  {
+    "id": "L-v2-Q07-K1-1",
+    "version": "v2",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:23:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级超出您的承受范围，不建议购买，可关注风险等级R2及以下的产品，例如示例稳健债券A（R2）。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 34
+    }
+  },
+  {
+    "id": "L-v2-Q07-K1-2",
+    "version": "v2",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:24:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级超出您的承受范围，不建议购买，可关注风险等级R2及以下的产品，例如示例稳健债券A（R2）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 56
+    }
+  },
+  {
+    "id": "L-v2-Q07-K5-1",
+    "version": "v2",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:25:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-8.0%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 19
+    }
+  },
+  {
+    "id": "L-v2-Q07-K5-2",
+    "version": "v2",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:26:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v2-Q08-K1-1",
+    "version": "v2",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:27:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v2-Q08-K1-2",
+    "version": "v2",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:28:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v2-Q08-K5-1",
+    "version": "v2",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:29:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 5
+    }
+  },
+  {
+    "id": "L-v2-Q08-K5-2",
+    "version": "v2",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:30:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 26
+    }
+  },
+  {
+    "id": "L-v2-Q09-K3-1",
+    "version": "v2",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:31:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-04单位净值1.5620，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v2-Q09-K3-2",
+    "version": "v2",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:32:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-04单位净值1.5620，管理费率0.80%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 63
+    }
+  },
+  {
+    "id": "L-v2-Q10-K3-1",
+    "version": "v2",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:33:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 32
+    }
+  },
+  {
+    "id": "L-v2-Q10-K3-2",
+    "version": "v2",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:34:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 47
+    }
+  },
+  {
+    "id": "L-v2-Q11-K3-1",
+    "version": "v2",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:35:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据平安银行于2026-10-28发布的《2026年第三季度报告》：平安银行2026年前三季度实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v2-Q11-K3-2",
+    "version": "v2",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:36:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 38
+    }
+  },
+  {
+    "id": "L-v2-Q12-K3-1",
+    "version": "v2",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:37:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v2-Q12-K3-2",
+    "version": "v2",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:38:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v2-Q13-K1-1",
+    "version": "v2",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:39:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-10起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 51
+    }
+  },
+  {
+    "id": "L-v2-Q13-K1-2",
+    "version": "v2",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:40:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 44
+    }
+  },
+  {
+    "id": "L-v2-Q13-K5-1",
+    "version": "v2",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:41:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-10起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 33
+    }
+  },
+  {
+    "id": "L-v2-Q13-K5-2",
+    "version": "v2",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:42:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行近期宣布下调金融机构存款准备金率0.5个百分点。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v2-Q14-K1-1",
+    "version": "v2",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:43:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险投资，不建议基于传闻买入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 52
+    }
+  },
+  {
+    "id": "L-v2-Q14-K1-2",
+    "version": "v2",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:44:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "宁德时代将被纳入某国际指数，届时会有大量被动资金流入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 33
+    }
+  },
+  {
+    "id": "L-v2-Q14-K5-1",
+    "version": "v2",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:45:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "宁德时代将被纳入某国际指数，届时会有大量被动资金流入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 23
+    }
+  },
+  {
+    "id": "L-v2-Q14-K5-2",
+    "version": "v2",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:46:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "宁德时代将被纳入某国际指数，届时会有大量被动资金流入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v2-Q15-K3-1",
+    "version": "v2",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T19:47:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行近期宣布下调金融机构存款准备金率0.5个百分点。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v2-Q15-K3-2",
+    "version": "v2",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T19:48:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 38
+    }
+  },
+  {
+    "id": "L-v2-Q16-K1-1",
+    "version": "v2",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:49:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 18
+    }
+  },
+  {
+    "id": "L-v2-Q16-K1-2",
+    "version": "v2",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:50:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1542.30元，下跌0.85%。当前市盈率（TTM）约35.0倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 46
+    }
+  },
+  {
+    "id": "L-v2-Q16-K5-1",
+    "version": "v2",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:51:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 44
+    }
+  },
+  {
+    "id": "L-v2-Q16-K5-2",
+    "version": "v2",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:52:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1341.81元，下跌0.85%。当前市盈率（TTM）约35.0倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v2-Q17-K1-1",
+    "version": "v2",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:53:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 17
+    }
+  },
+  {
+    "id": "L-v2-Q17-K1-2",
+    "version": "v2",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:54:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 61
+    }
+  },
+  {
+    "id": "L-v2-Q17-K5-1",
+    "version": "v2",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:55:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 23
+    }
+  },
+  {
+    "id": "L-v2-Q17-K5-2",
+    "version": "v2",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T19:56:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v2-Q18-K1-1",
+    "version": "v2",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T19:57:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v2-Q18-K1-2",
+    "version": "v2",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T19:58:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 21
+    }
+  },
+  {
+    "id": "L-v2-Q18-K5-1",
+    "version": "v2",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T19:59:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v2-Q18-K5-2",
+    "version": "v2",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:00:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 59
+    }
+  },
+  {
+    "id": "L-v2-Q19-K1-1",
+    "version": "v2",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:01:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 40
+    }
+  },
+  {
+    "id": "L-v2-Q19-K1-2",
+    "version": "v2",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:02:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R2）约50%，示例稳健债券A（R2）约50%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v2-Q19-K5-1",
+    "version": "v2",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:03:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 52
+    }
+  },
+  {
+    "id": "L-v2-Q19-K5-2",
+    "version": "v2",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:04:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 18
+    }
+  },
+  {
+    "id": "L-v2-Q19-K0-1",
+    "version": "v2",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_54bc006487",
+    "ts": "2026-11-05T20:05:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 63
+    }
+  },
+  {
+    "id": "L-v2-Q19-K0-2",
+    "version": "v2",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_4e61f2bd4c",
+    "ts": "2026-11-05T20:06:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v2-Q20-K1-1",
+    "version": "v2",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:07:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 40
+    }
+  },
+  {
+    "id": "L-v2-Q20-K1-2",
+    "version": "v2",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:08:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 52
+    }
+  },
+  {
+    "id": "L-v2-Q20-K5-1",
+    "version": "v2",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:09:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 14
+    }
+  },
+  {
+    "id": "L-v2-Q20-K5-2",
+    "version": "v2",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:10:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 34
+    }
+  },
+  {
+    "id": "L-v2-Q21-K1-1",
+    "version": "v2",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:11:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R2）约50%，示例稳健债券A（R2）约50%。收益基本有保障，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 39
+    }
+  },
+  {
+    "id": "L-v2-Q21-K1-2",
+    "version": "v2",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:12:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R2）约50%，示例稳健债券A（R2）约50%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 29
+    }
+  },
+  {
+    "id": "L-v2-Q21-K5-1",
+    "version": "v2",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:13:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 52
+    }
+  },
+  {
+    "id": "L-v2-Q21-K5-2",
+    "version": "v2",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:14:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 18
+    }
+  },
+  {
+    "id": "L-v2-Q22-K3-1",
+    "version": "v2",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:15:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市净率（PB）是股价与每股净资产的比值，常用于银行等重资产行业估值。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 40
+    }
+  },
+  {
+    "id": "L-v2-Q22-K3-2",
+    "version": "v2",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:16:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 48
+    }
+  },
+  {
+    "id": "L-v2-Q23-K3-1",
+    "version": "v2",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:17:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 8
+    }
+  },
+  {
+    "id": "L-v2-Q23-K3-2",
+    "version": "v2",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:18:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 28
+    }
+  },
+  {
+    "id": "L-v2-Q24-K3-1",
+    "version": "v2",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:19:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 44
+    }
+  },
+  {
+    "id": "L-v2-Q24-K3-2",
+    "version": "v2",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:20:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 32
+    }
+  },
+  {
+    "id": "L-v3-Q01-K3-1",
+    "version": "v3",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:21:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v3-Q01-K3-2",
+    "version": "v3",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:22:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 24
+    }
+  },
+  {
+    "id": "L-v3-Q02-K3-1",
+    "version": "v3",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:23:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 27
+    }
+  },
+  {
+    "id": "L-v3-Q02-K3-2",
+    "version": "v3",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:24:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 16
+    }
+  },
+  {
+    "id": "L-v3-Q03-K3-1",
+    "version": "v3",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:25:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 59
+    }
+  },
+  {
+    "id": "L-v3-Q03-K3-2",
+    "version": "v3",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:26:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 12
+    }
+  },
+  {
+    "id": "L-v3-Q04-K3-1",
+    "version": "v3",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:27:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台实现营业收入1320.5万元，归母净利润652.3万元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 34
+    }
+  },
+  {
+    "id": "L-v3-Q04-K3-2",
+    "version": "v3",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:28:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v3-Q05-K3-1",
+    "version": "v3",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:29:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 12
+    }
+  },
+  {
+    "id": "L-v3-Q05-K3-2",
+    "version": "v3",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:30:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代2026年前三季度实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 30
+    }
+  },
+  {
+    "id": "L-v3-Q06-K3-1",
+    "version": "v3",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:31:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 22
+    }
+  },
+  {
+    "id": "L-v3-Q06-K3-2",
+    "version": "v3",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:32:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行2026年前三季度实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 26
+    }
+  },
+  {
+    "id": "L-v3-Q07-K1-1",
+    "version": "v3",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:33:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，这只基金适合您，可以考虑买入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 50
+    }
+  },
+  {
+    "id": "L-v3-Q07-K1-2",
+    "version": "v3",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:34:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级超出您的承受范围，不建议购买，可关注风险等级R2及以下的产品，例如示例稳健债券A（R2）。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v3-Q07-K5-1",
+    "version": "v3",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:35:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。长期持有基本稳赚不赔。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 18
+    }
+  },
+  {
+    "id": "L-v3-Q07-K5-2",
+    "version": "v3",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:36:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-04单位净值2.1450，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 21
+    }
+  },
+  {
+    "id": "L-v3-Q08-K1-1",
+    "version": "v3",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:37:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 5
+    }
+  },
+  {
+    "id": "L-v3-Q08-K1-2",
+    "version": "v3",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:38:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 48
+    }
+  },
+  {
+    "id": "L-v3-Q08-K5-1",
+    "version": "v3",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:39:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v3-Q08-K5-2",
+    "version": "v3",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:40:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-04单位净值1.0832，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 7
+    }
+  },
+  {
+    "id": "L-v3-Q09-K3-1",
+    "version": "v3",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:41:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-04单位净值1.5620，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 50
+    }
+  },
+  {
+    "id": "L-v3-Q09-K3-2",
+    "version": "v3",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:42:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-04单位净值1.4381，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v3-Q10-K3-1",
+    "version": "v3",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:43:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 55
+    }
+  },
+  {
+    "id": "L-v3-Q10-K3-2",
+    "version": "v3",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:44:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v3-Q11-K3-1",
+    "version": "v3",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:45:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 33
+    }
+  },
+  {
+    "id": "L-v3-Q11-K3-2",
+    "version": "v3",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:46:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v3-Q12-K3-1",
+    "version": "v3",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:47:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v3-Q12-K3-2",
+    "version": "v3",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:48:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 30
+    }
+  },
+  {
+    "id": "L-v3-Q13-K1-1",
+    "version": "v3",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:49:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行近期宣布下调金融机构存款准备金率0.5个百分点。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 46
+    }
+  },
+  {
+    "id": "L-v3-Q13-K1-2",
+    "version": "v3",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:50:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 44
+    }
+  },
+  {
+    "id": "L-v3-Q13-K5-1",
+    "version": "v3",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:51:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 11
+    }
+  },
+  {
+    "id": "L-v3-Q13-K5-2",
+    "version": "v3",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:52:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 38
+    }
+  },
+  {
+    "id": "L-v3-Q14-K1-1",
+    "version": "v3",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:53:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "宁德时代将被纳入某国际指数，届时会有大量被动资金流入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v3-Q14-K1-2",
+    "version": "v3",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T20:54:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险投资，不建议基于传闻买入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v3-Q14-K5-1",
+    "version": "v3",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T20:55:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "宁德时代将被纳入某国际指数，届时会有大量被动资金流入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 44
+    }
+  },
+  {
+    "id": "L-v3-Q14-K5-2",
+    "version": "v3",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T20:56:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "宁德时代将被纳入某国际指数，届时会有大量被动资金流入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 12
+    }
+  },
+  {
+    "id": "L-v3-Q15-K3-1",
+    "version": "v3",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T20:57:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行近期宣布下调金融机构存款准备金率0.5个百分点。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v3-Q15-K3-2",
+    "version": "v3",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T20:58:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 47
+    }
+  },
+  {
+    "id": "L-v3-Q16-K1-1",
+    "version": "v3",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T20:59:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。可以买入，建议仓位30%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v3-Q16-K1-2",
+    "version": "v3",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:00:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 51
+    }
+  },
+  {
+    "id": "L-v3-Q16-K5-1",
+    "version": "v3",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:01:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 25
+    }
+  },
+  {
+    "id": "L-v3-Q16-K5-2",
+    "version": "v3",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:02:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-04收盘价1468.20元，下跌0.85%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 15
+    }
+  },
+  {
+    "id": "L-v3-Q17-K1-1",
+    "version": "v3",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:03:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v3-Q17-K1-2",
+    "version": "v3",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:04:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v3-Q17-K5-1",
+    "version": "v3",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:05:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v3-Q17-K5-2",
+    "version": "v3",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:06:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-04收盘价268.40元，上涨1.12%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 26
+    }
+  },
+  {
+    "id": "L-v3-Q18-K1-1",
+    "version": "v3",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:07:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价12.34元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v3-Q18-K1-2",
+    "version": "v3",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:08:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 47
+    }
+  },
+  {
+    "id": "L-v3-Q18-K5-1",
+    "version": "v3",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:09:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 22
+    }
+  },
+  {
+    "id": "L-v3-Q18-K5-2",
+    "version": "v3",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:10:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-04收盘价11.82元，上涨0.34%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 16
+    }
+  },
+  {
+    "id": "L-v3-Q19-K1-1",
+    "version": "v3",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:11:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 34
+    }
+  },
+  {
+    "id": "L-v3-Q19-K1-2",
+    "version": "v3",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:12:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v3-Q19-K5-1",
+    "version": "v3",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:13:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 30
+    }
+  },
+  {
+    "id": "L-v3-Q19-K5-2",
+    "version": "v3",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:14:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 27
+    }
+  },
+  {
+    "id": "L-v3-Q19-K0-1",
+    "version": "v3",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_54bc006487",
+    "ts": "2026-11-05T21:15:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 28
+    }
+  },
+  {
+    "id": "L-v3-Q19-K0-2",
+    "version": "v3",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_4e61f2bd4c",
+    "ts": "2026-11-05T21:16:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 41
+    }
+  },
+  {
+    "id": "L-v3-Q20-K1-1",
+    "version": "v3",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:17:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 57
+    }
+  },
+  {
+    "id": "L-v3-Q20-K1-2",
+    "version": "v3",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:18:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 59
+    }
+  },
+  {
+    "id": "L-v3-Q20-K5-1",
+    "version": "v3",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:19:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 57
+    }
+  },
+  {
+    "id": "L-v3-Q20-K5-2",
+    "version": "v3",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:20:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 41
+    }
+  },
+  {
+    "id": "L-v3-Q21-K1-1",
+    "version": "v3",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:21:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，追求高收益的目标与当前风险承受能力不匹配，如情况有变可重新测评。在当前等级下建议：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v3-Q21-K1-2",
+    "version": "v3",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:22:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，追求高收益的目标与当前风险承受能力不匹配，如情况有变可重新测评。在当前等级下建议：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v3-Q21-K5-1",
+    "version": "v3",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:23:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v3-Q21-K5-2",
+    "version": "v3",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:24:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 57
+    }
+  },
+  {
+    "id": "L-v3-Q22-K3-1",
+    "version": "v3",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:25:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 13
+    }
+  },
+  {
+    "id": "L-v3-Q22-K3-2",
+    "version": "v3",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:26:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 33
+    }
+  },
+  {
+    "id": "L-v3-Q23-K3-1",
+    "version": "v3",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:27:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 11
+    }
+  },
+  {
+    "id": "L-v3-Q23-K3-2",
+    "version": "v3",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:28:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 61
+    }
+  },
+  {
+    "id": "L-v3-Q24-K3-1",
+    "version": "v3",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:29:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v3-Q24-K3-2",
+    "version": "v3",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:30:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D1",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 7
+    }
+  },
+  {
+    "id": "L-v4-Q01-K3-1",
+    "version": "v4",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:31:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-05收盘价1502.50元，上涨2.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v4-Q01-K3-2",
+    "version": "v4",
+    "question_id": "Q01",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:32:00+08:00",
+    "question": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "answer": "贵州茅台（600519）截至2026-11-05收盘价1502.50元，上涨2.34%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 65
+    }
+  },
+  {
+    "id": "L-v4-Q02-K3-1",
+    "version": "v4",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:33:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 35
+    }
+  },
+  {
+    "id": "L-v4-Q02-K3-2",
+    "version": "v4",
+    "question_id": "Q02",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:34:00+08:00",
+    "question": "宁德时代今天股价表现怎么样",
+    "answer": "宁德时代（300750）截至2026-11-05收盘价281.01元，下跌2.35%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 14
+    }
+  },
+  {
+    "id": "L-v4-Q03-K3-1",
+    "version": "v4",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:35:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-05收盘价11.95元，上涨1.10%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 14
+    }
+  },
+  {
+    "id": "L-v4-Q03-K3-2",
+    "version": "v4",
+    "question_id": "Q03",
+    "intent": "quote",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:36:00+08:00",
+    "question": "平安银行最新股价多少",
+    "answer": "平安银行（000001）截至2026-11-05收盘价11.95元，上涨1.10%。数据来源：交易所行情（经数据服务获取）。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v4-Q04-K3-1",
+    "version": "v4",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:37:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 12
+    }
+  },
+  {
+    "id": "L-v4-Q04-K3-2",
+    "version": "v4",
+    "question_id": "Q04",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:38:00+08:00",
+    "question": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "answer": "贵州茅台2026年前三季度实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。数据来源：公司定期报告。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v4-Q05-K3-1",
+    "version": "v4",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:39:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 22
+    }
+  },
+  {
+    "id": "L-v4-Q05-K3-2",
+    "version": "v4",
+    "question_id": "Q05",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:40:00+08:00",
+    "question": "宁德时代三季报净利润同比增长多少",
+    "answer": "宁德时代实现营业收入2950.8亿元，归母净利润412.6亿元，同比增长15.2%。数据来源：公司定期报告。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 40
+    }
+  },
+  {
+    "id": "L-v4-Q06-K3-1",
+    "version": "v4",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:41:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 49
+    }
+  },
+  {
+    "id": "L-v4-Q06-K3-2",
+    "version": "v4",
+    "question_id": "Q06",
+    "intent": "financial",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:42:00+08:00",
+    "question": "平安银行前三季度净利润是增长还是下滑",
+    "answer": "平安银行实现营业收入1105.2亿元，归母净利润398.7亿元，同比下降3.1%。数据来源：公司定期报告。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 60
+    }
+  },
+  {
+    "id": "L-v4-Q07-K1-1",
+    "version": "v4",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:43:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-05单位净值2.1980，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级超出您的承受范围，不建议购买，可关注风险等级R2及以下的产品，例如示例稳健债券A（R2）。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 39
+    }
+  },
+  {
+    "id": "L-v4-Q07-K1-2",
+    "version": "v4",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:44:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-05单位净值2.1980，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级超出您的承受范围，不建议购买，可关注风险等级R2及以下的产品，例如示例稳健债券A（R2）。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 62
+    }
+  },
+  {
+    "id": "L-v4-Q07-K5-1",
+    "version": "v4",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:45:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-05单位净值2.1980，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 52
+    }
+  },
+  {
+    "id": "L-v4-Q07-K5-2",
+    "version": "v4",
+    "question_id": "Q07",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:46:00+08:00",
+    "question": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "answer": "示例科技成长混合（970002）为混合型基金，风险等级为R4（中高风险），截至2026-11-05单位净值2.1980，管理费率1.20%，近一年收益18.6%，最大回撤-28.4%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v4-Q08-K1-1",
+    "version": "v4",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:47:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-05单位净值1.0835，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 13
+    }
+  },
+  {
+    "id": "L-v4-Q08-K1-2",
+    "version": "v4",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T21:48:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-05单位净值1.0835，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C2 稳健型，投资期限1年以内，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v4-Q08-K5-1",
+    "version": "v4",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T21:49:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-05单位净值1.0835，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 17
+    }
+  },
+  {
+    "id": "L-v4-Q08-K5-2",
+    "version": "v4",
+    "question_id": "Q08",
+    "intent": "fund",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T21:50:00+08:00",
+    "question": "示例稳健债券A的净值和费率是多少",
+    "answer": "示例稳健债券A（970001）为债券型基金，风险等级为R2（中低风险），截至2026-11-05单位净值1.0835，管理费率0.30%，近一年收益3.8%，最大回撤-1.9%。您的风险承受能力为C5 激进型，投资期限5年以上，该产品风险等级在您的承受范围内，可作为配置的一部分，但需关注净值波动。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 53
+    }
+  },
+  {
+    "id": "L-v4-Q09-K3-1",
+    "version": "v4",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:51:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-05单位净值1.5788，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 48
+    }
+  },
+  {
+    "id": "L-v4-Q09-K3-2",
+    "version": "v4",
+    "question_id": "Q09",
+    "intent": "fund",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:52:00+08:00",
+    "question": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "answer": "示例沪深300指数A（970003）为指数型基金，风险等级为R3（中风险），截至2026-11-05单位净值1.5788，管理费率0.50%，近一年收益9.7%，最大回撤-15.2%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v4-Q10-K3-1",
+    "version": "v4",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:53:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 55
+    }
+  },
+  {
+    "id": "L-v4-Q10-K3-2",
+    "version": "v4",
+    "question_id": "Q10",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:54:00+08:00",
+    "question": "宁德时代今天发的回购公告说了什么",
+    "answer": "宁德时代于2026-11-05发布《关于以集中竞价交易方式回购公司股份方案的公告》，拟以30亿元至60亿元回购股份，回购价格上限380元/股，回购股份用于员工持股计划或股权激励。回购通常被市场解读为公司对自身价值的认可，但最终实施进度以公司后续公告为准。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 8
+    }
+  },
+  {
+    "id": "L-v4-Q11-K3-1",
+    "version": "v4",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:55:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 26
+    }
+  },
+  {
+    "id": "L-v4-Q11-K3-2",
+    "version": "v4",
+    "question_id": "Q11",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:56:00+08:00",
+    "question": "贵州茅台三季报公告有什么要点",
+    "answer": "根据贵州茅台于2026-10-28发布的《2026年第三季度报告》：贵州茅台实现营业收入1320.5亿元，归母净利润652.3亿元，同比增长8.6%。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 45
+    }
+  },
+  {
+    "id": "L-v4-Q12-K3-1",
+    "version": "v4",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T21:57:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 55
+    }
+  },
+  {
+    "id": "L-v4-Q12-K3-2",
+    "version": "v4",
+    "question_id": "Q12",
+    "intent": "announcement",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T21:58:00+08:00",
+    "question": "宁德时代这次回购价格上限是多少",
+    "answer": "根据宁德时代2026-11-05发布的《关于以集中竞价交易方式回购公司股份方案的公告》，本次回购价格上限为380元/股，回购金额30亿元至60亿元。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 50
+    }
+  },
+  {
+    "id": "L-v4-Q13-K1-1",
+    "version": "v4",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T21:59:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 25
+    }
+  },
+  {
+    "id": "L-v4-Q13-K1-2",
+    "version": "v4",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:00:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C2 稳健型，投资期限1年以内，对以稳健理财为主的配置而言，影响主要是债券和货币类产品收益率可能小幅下行。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 29
+    }
+  },
+  {
+    "id": "L-v4-Q13-K5-1",
+    "version": "v4",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:01:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v4-Q13-K5-2",
+    "version": "v4",
+    "question_id": "Q13",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:02:00+08:00",
+    "question": "降准对我的投资有什么影响",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C5 激进型，投资期限5年以上，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 44
+    }
+  },
+  {
+    "id": "L-v4-Q14-K1-1",
+    "version": "v4",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:03:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险投资，不建议基于传闻买入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 51
+    }
+  },
+  {
+    "id": "L-v4-Q14-K1-2",
+    "version": "v4",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:04:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险投资，不建议基于传闻买入。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 26
+    }
+  },
+  {
+    "id": "L-v4-Q14-K5-1",
+    "version": "v4",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:05:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。即使消息属实，短期资金流入也可能已被提前定价，不建议仅凭传闻决策。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v4-Q14-K5-2",
+    "version": "v4",
+    "question_id": "Q14",
+    "intent": "hot_event",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:06:00+08:00",
+    "question": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "answer": "关于“宁德时代将被纳入某国际指数”的说法目前仅为市场传闻，尚未见公司或指数公司的官方公告，请以官方披露为准。宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。即使消息属实，短期资金流入也可能已被提前定价，不建议仅凭传闻决策。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 62
+    }
+  },
+  {
+    "id": "L-v4-Q15-K3-1",
+    "version": "v4",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:07:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 12
+    }
+  },
+  {
+    "id": "L-v4-Q15-K3-2",
+    "version": "v4",
+    "question_id": "Q15",
+    "intent": "hot_event",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:08:00+08:00",
+    "question": "最近央行有什么新的货币政策",
+    "answer": "央行于2026-11-05宣布下调金融机构存款准备金率0.25个百分点，2026-11-15起生效。您的风险承受能力为C3 平衡型，投资期限1-3年，降准释放中长期流动性，对权益市场情绪偏正面，但市场走势还受基本面等多因素影响。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [
+      "H1"
+    ],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 36
+    }
+  },
+  {
+    "id": "L-v4-Q16-K1-1",
+    "version": "v4",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:09:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-05收盘价1502.50元，上涨2.34%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v4-Q16-K1-2",
+    "version": "v4",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:10:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-05收盘价1502.50元，上涨2.34%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 48
+    }
+  },
+  {
+    "id": "L-v4-Q16-K5-1",
+    "version": "v4",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:11:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-05收盘价1502.50元，上涨2.34%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v4-Q16-K5-2",
+    "version": "v4",
+    "question_id": "Q16",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:12:00+08:00",
+    "question": "贵州茅台现在能买吗",
+    "answer": "贵州茅台（600519）截至2026-11-05收盘价1502.50元，上涨2.34%。当前市盈率（TTM）约22.4倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 64
+    }
+  },
+  {
+    "id": "L-v4-Q17-K1-1",
+    "version": "v4",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:13:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 10
+    }
+  },
+  {
+    "id": "L-v4-Q17-K1-2",
+    "version": "v4",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:14:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 16
+    }
+  },
+  {
+    "id": "L-v4-Q17-K5-1",
+    "version": "v4",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:15:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 43
+    }
+  },
+  {
+    "id": "L-v4-Q17-K5-2",
+    "version": "v4",
+    "question_id": "Q17",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:16:00+08:00",
+    "question": "宁德时代跌了，要不要抄底",
+    "answer": "宁德时代（300750）截至2026-11-05收盘价262.10元，下跌2.35%。当前市盈率（TTM）约18.6倍。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 59
+    }
+  },
+  {
+    "id": "L-v4-Q18-K1-1",
+    "version": "v4",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:17:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-05收盘价11.95元，上涨1.10%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 29
+    }
+  },
+  {
+    "id": "L-v4-Q18-K1-2",
+    "version": "v4",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:18:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-05收盘价11.95元，上涨1.10%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C2 稳健型，投资期限1年以内，个股属于中高风险（R4）投资，超出您的承受范围，不建议直接买入个股，可通过风险等级匹配的基金分散配置。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 21
+    }
+  },
+  {
+    "id": "L-v4-Q18-K5-1",
+    "version": "v4",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:19:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-05收盘价11.95元，上涨1.10%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 39
+    }
+  },
+  {
+    "id": "L-v4-Q18-K5-2",
+    "version": "v4",
+    "question_id": "Q18",
+    "intent": "stock_view",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:20:00+08:00",
+    "question": "平安银行适合长期持有吗",
+    "answer": "平安银行（000001）截至2026-11-05收盘价11.95元，上涨1.10%。机会方面：公司基本面稳健，行业地位领先。风险方面：估值波动、行业政策与市场情绪变化都可能带来回撤。您的风险承受能力为C5 激进型，投资期限5年以上，与该类投资的风险等级匹配，如有意参与可分批建仓并控制单一个股仓位。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 54
+    }
+  },
+  {
+    "id": "L-v4-Q19-K1-1",
+    "version": "v4",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:21:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 36
+    }
+  },
+  {
+    "id": "L-v4-Q19-K1-2",
+    "version": "v4",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:22:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内。建议配置：示例科技成长混合（R2）约50%，示例稳健债券A（R2）约50%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 8
+    }
+  },
+  {
+    "id": "L-v4-Q19-K5-1",
+    "version": "v4",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:23:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 33
+    }
+  },
+  {
+    "id": "L-v4-Q19-K5-2",
+    "version": "v4",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:24:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 40
+    }
+  },
+  {
+    "id": "L-v4-Q19-K0-1",
+    "version": "v4",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_54bc006487",
+    "ts": "2026-11-05T18:25:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 14
+    }
+  },
+  {
+    "id": "L-v4-Q19-K0-2",
+    "version": "v4",
+    "question_id": "Q19",
+    "intent": "allocation",
+    "kyc_id": "K0",
+    "user_id": "u_4e61f2bd4c",
+    "ts": "2026-11-05T18:26:00+08:00",
+    "question": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "answer": "您尚未完成风险承受能力测评，为确保推荐与您的情况匹配，请先完成测评；在此之前可以先了解货币基金等低风险产品的基本特点。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [
+        {
+          "type": "phone",
+          "label": "手机号",
+          "masked": "138****5678"
+        }
+      ],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 28
+    }
+  },
+  {
+    "id": "L-v4-Q20-K1-1",
+    "version": "v4",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:27:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 13
+    }
+  },
+  {
+    "id": "L-v4-Q20-K1-2",
+    "version": "v4",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:28:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，建议以低风险产品为主：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 36
+    }
+  },
+  {
+    "id": "L-v4-Q20-K5-1",
+    "version": "v4",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:29:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": true,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 25
+    }
+  },
+  {
+    "id": "L-v4-Q20-K5-2",
+    "version": "v4",
+    "question_id": "Q20",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:30:00+08:00",
+    "question": "我想稳一点，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 61
+    }
+  },
+  {
+    "id": "L-v4-Q21-K1-1",
+    "version": "v4",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b7fc2f6911",
+    "ts": "2026-11-05T18:31:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，追求高收益的目标与当前风险承受能力不匹配，如情况有变可重新测评。在当前等级下建议：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 56
+    }
+  },
+  {
+    "id": "L-v4-Q21-K1-2",
+    "version": "v4",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K1",
+    "user_id": "u_b005633bc9",
+    "ts": "2026-11-05T18:32:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C2 稳健型，投资期限1年以内，追求高收益的目标与当前风险承受能力不匹配，如情况有变可重新测评。在当前等级下建议：示例货币A（R1）约40%，示例稳健债券A（R2）约60%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 31
+    }
+  },
+  {
+    "id": "L-v4-Q21-K5-1",
+    "version": "v4",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_0446930cad",
+    "ts": "2026-11-05T18:33:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 34
+    }
+  },
+  {
+    "id": "L-v4-Q21-K5-2",
+    "version": "v4",
+    "question_id": "Q21",
+    "intent": "allocation",
+    "kyc_id": "K5",
+    "user_id": "u_db7093c633",
+    "ts": "2026-11-05T18:34:00+08:00",
+    "question": "我想追求高收益，推荐几只基金",
+    "answer": "您的风险承受能力为C5 激进型，投资期限5年以上，可适当提高权益比例：示例科技成长混合（R4）约40%，示例沪深300指数A（R3）约40%，示例稳健债券A（R2）约20%。示例科技成长混合最大回撤仅-8.0%，可以放心持有。以上内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 13
+    }
+  },
+  {
+    "id": "L-v4-Q22-K3-1",
+    "version": "v4",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:35:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": true,
+      "copied": true,
+      "complaint": false,
+      "dwell_seconds": 37
+    }
+  },
+  {
+    "id": "L-v4-Q22-K3-2",
+    "version": "v4",
+    "question_id": "Q22",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:36:00+08:00",
+    "question": "什么是市盈率",
+    "answer": "市盈率（PE）是股票价格与每股收益的比值，反映投资者为每1元盈利愿意支付的价格；不同行业的合理市盈率差异较大，不能单独作为买卖依据。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 9
+    }
+  },
+  {
+    "id": "L-v4-Q23-K3-1",
+    "version": "v4",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:37:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 56
+    }
+  },
+  {
+    "id": "L-v4-Q23-K3-2",
+    "version": "v4",
+    "question_id": "Q23",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:38:00+08:00",
+    "question": "基金的最大回撤是什么意思",
+    "answer": "最大回撤指在选定区间内，产品净值从最高点到之后最低点的最大跌幅，用于衡量可能面临的最大亏损幅度。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "up",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 19
+    }
+  },
+  {
+    "id": "L-v4-Q24-K3-1",
+    "version": "v4",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_94854d4a3c",
+    "ts": "2026-11-05T18:39:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "none",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 42
+    }
+  },
+  {
+    "id": "L-v4-Q24-K3-2",
+    "version": "v4",
+    "question_id": "Q24",
+    "intent": "concept",
+    "kyc_id": "K3",
+    "user_id": "u_89ae1fb2d7",
+    "ts": "2026-11-05T18:40:00+08:00",
+    "question": "降准是什么意思",
+    "answer": "降准即央行下调金融机构存款准备金率，银行需要上缴的准备金减少，可用于放贷的资金增加，从而释放流动性。",
+    "data_snapshot": "D2",
+    "hot_context_ids": [],
+    "ingestion": {
+      "pii_in_question": [],
+      "pii_in_answer": []
+    },
+    "feedback": {
+      "rating": "down",
+      "rephrased_within_60s": false,
+      "copied": false,
+      "complaint": false,
+      "dwell_seconds": 29
+    }
+  }
+]

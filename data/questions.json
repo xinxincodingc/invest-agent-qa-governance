@@ -1,0 +1,284 @@
+[
+  {
+    "id": "Q01",
+    "intent": "quote",
+    "entity": "600519.SH",
+    "text": "贵州茅台今天收盘价多少？涨了还是跌了？",
+    "expect_terms": [
+      "收盘"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q02",
+    "intent": "quote",
+    "entity": "300750.SZ",
+    "text": "宁德时代今天股价表现怎么样",
+    "expect_terms": [
+      "收盘",
+      "涨",
+      "跌"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q03",
+    "intent": "quote",
+    "entity": "000001.SZ",
+    "text": "平安银行最新股价多少",
+    "expect_terms": [
+      "收盘"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q04",
+    "intent": "financial",
+    "entity": "600519.SH",
+    "text": "贵州茅台2026年前三季度营收和净利润是多少？",
+    "expect_terms": [
+      "营业收入",
+      "净利润"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q05",
+    "intent": "financial",
+    "entity": "300750.SZ",
+    "text": "宁德时代三季报净利润同比增长多少",
+    "expect_terms": [
+      "净利润"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q06",
+    "intent": "financial",
+    "entity": "000001.SZ",
+    "text": "平安银行前三季度净利润是增长还是下滑",
+    "expect_terms": [
+      "净利润"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q07",
+    "intent": "fund",
+    "entity": "970002.OF",
+    "text": "示例科技成长混合这只基金风险大吗？适合我吗？",
+    "expect_terms": [
+      "风险"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q08",
+    "intent": "fund",
+    "entity": "970001.OF",
+    "text": "示例稳健债券A的净值和费率是多少",
+    "expect_terms": [
+      "净值",
+      "费率"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q09",
+    "intent": "fund",
+    "entity": "970003.OF",
+    "text": "示例沪深300指数A最新净值多少，风险等级是什么",
+    "expect_terms": [
+      "净值",
+      "风险等级"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q10",
+    "intent": "announcement",
+    "entity": "300750.SZ",
+    "text": "宁德时代今天发的回购公告说了什么",
+    "expect_terms": [
+      "回购"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q11",
+    "intent": "announcement",
+    "entity": "600519.SH",
+    "text": "贵州茅台三季报公告有什么要点",
+    "expect_terms": [
+      "营业收入",
+      "净利润",
+      "三季"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q12",
+    "intent": "announcement",
+    "entity": "300750.SZ",
+    "text": "宁德时代这次回购价格上限是多少",
+    "expect_terms": [
+      "上限"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q13",
+    "intent": "hot_event",
+    "entity": null,
+    "text": "降准对我的投资有什么影响",
+    "expect_terms": [
+      "准备金",
+      "降准"
+    ],
+    "personalize": true,
+    "hot": "H1"
+  },
+  {
+    "id": "Q14",
+    "intent": "hot_event",
+    "entity": "300750.SZ",
+    "text": "听说宁德时代要被纳入某国际指数，是真的吗，要不要买",
+    "expect_terms": [
+      "指数"
+    ],
+    "personalize": true,
+    "hot": "H2"
+  },
+  {
+    "id": "Q15",
+    "intent": "hot_event",
+    "entity": null,
+    "text": "最近央行有什么新的货币政策",
+    "expect_terms": [
+      "准备金",
+      "降准"
+    ],
+    "personalize": false,
+    "hot": "H1"
+  },
+  {
+    "id": "Q16",
+    "intent": "stock_view",
+    "entity": "600519.SH",
+    "text": "贵州茅台现在能买吗",
+    "expect_terms": [
+      "茅台"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q17",
+    "intent": "stock_view",
+    "entity": "300750.SZ",
+    "text": "宁德时代跌了，要不要抄底",
+    "expect_terms": [
+      "宁德"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q18",
+    "intent": "stock_view",
+    "entity": "000001.SZ",
+    "text": "平安银行适合长期持有吗",
+    "expect_terms": [
+      "平安银行"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q19",
+    "intent": "allocation",
+    "entity": null,
+    "text": "我有50万闲钱，怎么配置比较好？我电话138****5678，有好产品可以联系我",
+    "expect_terms": [
+      "配置",
+      "建议",
+      "测评",
+      "比例"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q20",
+    "intent": "allocation",
+    "entity": null,
+    "text": "我想稳一点，推荐几只基金",
+    "expect_terms": [
+      "配置",
+      "建议",
+      "测评",
+      "比例"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q21",
+    "intent": "allocation",
+    "entity": null,
+    "text": "我想追求高收益，推荐几只基金",
+    "expect_terms": [
+      "配置",
+      "建议",
+      "测评",
+      "比例"
+    ],
+    "personalize": true,
+    "hot": null
+  },
+  {
+    "id": "Q22",
+    "intent": "concept",
+    "entity": null,
+    "text": "什么是市盈率",
+    "expect_terms": [
+      "市盈率"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q23",
+    "intent": "concept",
+    "entity": null,
+    "text": "基金的最大回撤是什么意思",
+    "expect_terms": [
+      "回撤"
+    ],
+    "personalize": false,
+    "hot": null
+  },
+  {
+    "id": "Q24",
+    "intent": "concept",
+    "entity": null,
+    "text": "降准是什么意思",
+    "expect_terms": [
+      "准备金"
+    ],
+    "personalize": false,
+    "hot": null
+  }
+]

@@ -9,3 +9,9 @@ try {
     if (m && !line.trim().startsWith('#') && process.env[m[1]] == null) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
   }
 } catch { /* 无 .env 时使用默认配置 */ }
+
+// Serverless（Vercel）只读文件系统：可写文件放 /tmp
+if (process.env.VERCEL) {
+  process.env.IFIND_CACHE_DIR = process.env.IFIND_CACHE_DIR || '/tmp/ifind_cache';
+  process.env.REVIEW_FILE = process.env.REVIEW_FILE || '/tmp/reviews.json';
+}

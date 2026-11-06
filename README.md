@@ -155,7 +155,7 @@ npm run report # 生成 reports/eval-report.json 与 eval-summary.md
 | `LLM_API_KEY` / `LLM_BASE_URL` / `LLM_MODEL` | 启用 LLM 切题评审（OpenAI 兼容接口） |
 | `REVIEW_FILE` | 人工复核结果存储路径，默认 `data/reviews.json`；不可写时退化为内存并在页面提示 |
 
-部署（Vercel）：在 https://vercel.com/new 导入本仓库，Framework Preset 选 **Other**，Build/Output 留空；在 Environment Variables 里填 `IFIND_MCP_TOKEN`（可选 `JUDGE_ANTHROPIC_API_KEY`）。`api/index.js` 把所有请求交给同一个函数，`vercel.json` 做路由与打包；Serverless 文件系统只读，iFinD 缓存与人工复核结果写到 `/tmp`（实例回收后丢失）。仓库内也保留了 `render.yaml` 与 `Dockerfile`，可部署到常驻服务器。
+部署（Railway，推荐）：在 https://railway.com/new 选 Deploy from GitHub repo → 本仓库；`railway.json` 已指定构建/启动命令与健康检查（`/api/meta`）；在 Variables 填 `IFIND_MCP_TOKEN`（可选 `JUDGE_ANTHROPIC_API_KEY`），在 Settings → Networking 点 Generate Domain 获得公网地址。仓库同时保留 Vercel（`vercel.json` + `api/index.js`）、Render（`render.yaml`）与 `Dockerfile` 配置。
 
 ## 7. 已知边界
 

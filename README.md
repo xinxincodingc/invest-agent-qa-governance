@@ -155,7 +155,7 @@ npm run report # 生成 reports/eval-report.json 与 eval-summary.md
 | `LLM_API_KEY` / `LLM_BASE_URL` / `LLM_MODEL` | 启用 LLM 切题评审（OpenAI 兼容接口） |
 | `REVIEW_FILE` | 人工复核结果存储路径，默认 `data/reviews.json`；不可写时退化为内存并在页面提示 |
 
-部署（任选其一）：Render / Railway 新建 Web Service，Build 命令留空，Start 命令 `node server.js`；或使用仓库内 `Dockerfile`。
+部署：仓库内含 `render.yaml`，打开 https://render.com/deploy?repo=https://github.com/xinxincodingc/invest-agent-qa-governance 一键部署（Build `npm ci --omit=dev`，Start `node server.js`）；`IFIND_MCP_TOKEN`、`JUDGE_ANTHROPIC_API_KEY` 在 Render 的环境变量里填写，不填也能运行（实时核验页显示仓库中保存的上次结果）。也可用 `Dockerfile`。
 
 ## 7. 已知边界
 

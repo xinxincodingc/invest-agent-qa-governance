@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: invest-agent-qa-governance
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /api/meta
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: IFIND_MCP_TOKEN
+        sync: false
+      - key: JUDGE_ANTHROPIC_API_KEY
+        sync: false
+      - key: IFIND_RATE_LIMIT
+        value: "30"
